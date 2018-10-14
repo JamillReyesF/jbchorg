@@ -15,20 +15,37 @@ namespace jbchorg.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Institucion()
         {
             ViewData["Message"] = "Your application description page.";
 
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Asociado()
         {
             ViewData["Message"] = "Your contact page.";
 
             return View();
         }
+        public IActionResult Servicio()
+        {
+            ViewData["Message"] = "Your contact page.";
 
+            return View();
+        }
+        public IActionResult Proyecto()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+        public IActionResult Contacto()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

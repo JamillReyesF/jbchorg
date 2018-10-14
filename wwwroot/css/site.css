@@ -3,6 +3,15 @@ for details on configuring this project to bundle and minify static web assets. 
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: Navy;
+}
+
+div{
+    
+    font-size: medium;
 }
 
 /* Wrapping element */
@@ -34,4 +43,14 @@ body {
     .carousel-caption {
         display: none;
     }
+}
+#example1{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px red;
+}
+.newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
 }

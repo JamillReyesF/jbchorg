@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jamillreyes/Downloads/jbchorg/jbchorg.csproj",
+      "projectUniqueName": "/Users/jamillreyes/Downloads/jbchorg/jbchorg/jbchorg.csproj",
       "projectName": "jbchorg",
-      "projectPath": "/Users/jamillreyes/Downloads/jbchorg/jbchorg.csproj",
+      "projectPath": "/Users/jamillreyes/Downloads/jbchorg/jbchorg/jbchorg.csproj",
       "packagesPath": "/Users/jamillreyes/.nuget/packages/",
-      "outputPath": "/Users/jamillreyes/Downloads/jbchorg/obj/",
+      "outputPath": "/Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
