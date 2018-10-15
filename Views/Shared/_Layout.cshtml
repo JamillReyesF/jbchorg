@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - jbch</title>
-
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
@@ -17,8 +16,7 @@
     </environment>
 </head>
 <body>
-
- <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -27,9 +25,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">
-                   Jbch
-                </a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">JBCH</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -38,21 +34,71 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Asociado">Asociado</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Servicio">Servicio</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Proyecto">Proyecto</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contacto">Contáctenos</a></li>
-                    
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contacto">Contáctenos</a></li>                   
                 </ul>
             </div>
         </div>
     </nav>
-
+    
     <partial name="_CookieConsentPartial" />
 
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2018 - jbch</p>
-        </footer>
+
+<footer class="section-footer">
+    <div  class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <ul>
+                    <h3>ACERCA DE JBCH</h3>  
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Inicio</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Institucion">Nuestra Institución</a></li>
+                    <li><a href="">Misión y Visión</a></li>
+                    <li><a href="">Comité de ética Institucional</a></li>
+                    <li><a href="">Presidentes y Directores</a></li>
+                </ul>
+        </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="col-lg-12 space">
+                    <div class="pos-left"><a href="mailto:mail.jbch.org.pe" target="_top"><img src="http://www.iin.sld.pe/web/img/others/mail.png"></a></div>
+                    <div class="">
+                        <p>JBCH Email</p>
+                        <p><a href="mailto:webmaster@jbch.org.pe" target="_top">webmaster@jbch.org.pe</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="pos-left"><img src="http://www.iin.sld.pe/web/img/others/local.png"></div>
+                    <div class="">
+                        <p>Junta de Beneficencia de Chosica</p>
+                        <p>Av. La Molina 1885 - La Molina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="col-lg-12 space">
+                    <div class="pos-left"><img src="http://www.iin.sld.pe/web/img/others/fono.png"></div>
+                    <div class="">
+                        <p><span>T</span> +51 1 349 6023</p>
+                        <p><span>F</span> +51 1 349 6025</p>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="pos-left"><img src="http://www.iin.sld.pe/web/img/others/copy.png"></div>
+                    <div class="img-foot">
+                        <p>&copy; 2018<img src="http://www.iin.sld.pe/web/img/others/logo-iin-footer.png"></p>
+                        <p>Todos los derechos reservados</p>
+                    </div>
+                    <div class="col-lg-12 social">
+                        <div class="list"><a target="_blank" href="https://www.facebook.com/pages/IIN-Instituto-de-Investigacion-Nutricional/170205439746996?fref=ts"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></div>
+                        <div class="list"><a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></div>
+                        <div class="list"><a target="_blank" href="https://www.youtube.com/results?search_query=instituto+de+investigacion+nutricional"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
     </div>
 
     <environment include="Development">
