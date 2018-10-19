@@ -42,59 +42,41 @@
     
     <partial name="_CookieConsentPartial" />
 
-    <div class="container body-content">
+<div class="container body-content">
         @RenderBody()
+  <footer div class="row">
+  <div class="col-md-4">
+    <h4>ACERCA DE JBCH</h4>
+    <ul>
+    <li><a asp-area="" asp-controller="Home" asp-action="Index">Inicio</a></li>
+    <li><a asp-area="" asp-controller="Home" asp-action="Institucion">Nuestra Institución</a></li>
+    <li><a href="">Misión y Visión</a></li>
+    <li><a href="">Comité de ética Institucional</a></li>
+    <li><a href="">Presidentes y Directores</a></li>
+    </ul>
+  </div>
 
-<footer class="section-footer">
-    <div  class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <ul>
-                    <h4>ACERCA DE JBCH</h4>  
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Inicio</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Institucion">Nuestra Institución</a></li>
-                    <li><a href="">Misión y Visión</a></li>
-                    <li><a href="">Comité de ética Institucional</a></li>
-                    <li><a href="">Presidentes y Directores</a></li>
-                </ul>
-        </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <div class="col-lg-12 space">
-                    <div class="pos-left"><a href="mailto:mail.jbch.org.pe" target="_top"><img src="~/images/mail.png" ></a></div>
-                    <div class="">
-                        <p>JBCH Email</p>
-                        <p><a href="mailto:webmaster@jbch.org.pe" target="_top">webmaster@jbch.org.pe</a></p>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="pos-left"><img src="~/images/local.png" ></div>
-                    <div class="">
-                        <p>Junta de Beneficencia de Chosica</p>
-                        <p>Av. La Molina 1885 - La Molina</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <div class="col-lg-12 space">
-                    <div class="pos-left"><img src="~/images/fono.png" ></div>
-                    <div class="">
-                        <p><span>T</span> +51 1 349 6023</p>
-                        <p><span>F</span> +51 1 349 6025</p>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="pos-left"><img src="~/images/local.png" ></div>
-                    <div class="img-foot">
-                        <p>&copy; 2018<img src="~/images/copy.png" ></p>
-                        <p>Todos los derechos reservados</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+  <div class="col-md-4">
+    <p><a href="mailto:mail.jbch.org.pe" target="_top"><img src="~/images/mail.png"></a></p>
+    <p>JBCH Email</p>
+    <p><a href="mailto:webmaster@jbch.org.pe" target="_top">webmaster@jbch.org.pe</a></p>
+    <p><img src="~/images/local.png" ></p>
+    <p>Junta de Beneficencia de Chosica</p>
+    <p>Av. La Molina 1885 - La Molina</p>
+  </div>
 
-    </div>
+  <div class="col-md-4">
+    <p><img src="~/images/fono.png"></p>
+    <p>T +51 1 349 6023</p>
+    <p>F +51 1 349 6025</p>
+    <p><img src="~/images/copy.png"> 2018</p>
+    <p>Todos los derechos reservados</p>
+  </div>
+  </div></footer>
+</div>
+    
+</div>
+    
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>

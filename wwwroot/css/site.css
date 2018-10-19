@@ -3,7 +3,7 @@ for details on configuring this project to bundle and minify static web assets. 
 body {
     padding-top: 50px;
     padding-bottom: 20px;
-    color: #99A3A4;
+    color: #85929E  ;
 }
 article, aside, dialog, figcaption, figure, footer, header, hgroup,
 main, nav, section {
@@ -11,7 +11,7 @@ main, nav, section {
 }
 footer{
     font-size: 12px;
-    background-color:#1C2833;
+    background-color:#17202A;
 }
 hr {
     box-sizing: content-box;
