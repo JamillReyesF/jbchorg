@@ -5,7 +5,7 @@ namespace jbchorg.Models
     public class Mensaje
     {
         [EmailAddress]
-        [Required]
+        [Required(ErrorMessage = "Ingrese su Email")]
         public string Correo { get; set; }
         [Required]
         public string Nombre { get; set; }
