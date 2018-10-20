@@ -1,7 +1,33 @@
-﻿@{
+﻿@model Mensaje
+@{
     ViewData["Title"] = "About";
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
+<h1>Contacto</h1>
+<p>Complete el siguiente formulario y un asesor se contactará para resolver sus dudas.</p>
+<h3>Formulario de contacto</h3>
+@Html.ValidationSummary()
+    <div class="row">
+          <div class="col-md-6">
+            <form asp-action="Contacto" >
+          <div class="form-group">Nombre:
+            <input asp-for="Nombre" class="form-control" />
+          </div>
+          <div class="form-group">Apellido Paterno:
+            <input asp-for="APaterno" class="form-control" />
+           </div>
+           <div class="form-group">Correo:
+            <input asp-for="Correo" class="form-control" />
+           </div>
+         <div class="form-group">Mensaje:
+            <textarea rows="4" cols="50" asp-for="Texto" class="form-control" />
+            </textarea>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Enviar" class="btn btn-primary" />
+            <button type="reset" value="Reset" class="btn btn-primary" />Reset</button>
+        </div>
+        </div>
+      </form>
+      </div>
 
-<p>Use this area to provide additional information.</p>
+

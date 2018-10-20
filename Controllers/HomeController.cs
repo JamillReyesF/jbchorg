@@ -46,6 +46,21 @@ namespace jbchorg.Controllers
 
             return View();
         }
+            [HttpPost]
+        public IActionResult Contacto(Mensaje m)
+        {
+            if (ModelState.IsValid) {
+                // Guardar el mensaje en BD
+                return RedirectToAction("Confirmacion");
+            }
+            
+            return View(m);
+        }
+        public IActionResult Confirmacion()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

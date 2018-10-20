@@ -34,3 +34,4 @@
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/jbchorg.pdb
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/jbchorg.csproj.CopyComplete
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Home/Dona.g.cshtml.cs
+/Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Home/Confirmacion.g.cshtml.cs
