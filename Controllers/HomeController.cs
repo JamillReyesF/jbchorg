@@ -52,6 +52,7 @@ namespace jbchorg.Controllers
         {
             if (ModelState.IsValid) {
                 // Guardar el mensaje en BD
+                //falta el envio de datos al correo 
                 return RedirectToAction("Confirmacion");
             }
             
