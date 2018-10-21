@@ -1,3 +1,4 @@
+
 using System.ComponentModel.DataAnnotations;
 
 namespace jbchorg.Models
@@ -6,14 +7,15 @@ namespace jbchorg.Models
     {
         [EmailAddress]
         [Required(ErrorMessage = "Ingrese su Email")]
-        public string Correo { get; set; }
+        public string Email { get; set; }
         [Required]
         public string Nombre { get; set; }
-        [Required]
-        public string ApellidoP { get; set; }
-        public string ApellidoM { get; set; }
-        public string Movil { get; set; }
-        public string Asunto { get; set; }
-        public string Texto { get; set; }
+        public string APaterno  { get; set; }
+        public string ApellidoM  { get; set; }
+
+        public string Celular { get; set; }
+        public string Asunto  { get; set; }
+        public string Descripcion { get; set; }
+
     }
 }

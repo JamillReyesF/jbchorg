@@ -1,23 +1,31 @@
-﻿@model Mensaje
+﻿
+@model JBCHORG.Models.Mensaje
+
 @{
-    ViewData["Title"] = "About";
+    ViewData["Title"] = "Contacto";
 }
 <h1>Contacto</h1>
 <p>Complete el siguiente formulario y un asesor se contactará para resolver sus dudas.</p>
+        <div class="col-md-8 offset-md-2">
 <h3>Formulario de contacto de correo</h3>
+        </div>
 
 @Html.ValidationSummary()
 
     <div class="row">
 
-   <div class="col-md-6">
+          <div class="col-md-6">
 
             <form asp-action="Contacto" >
 
-                    <div class="col-12 col-md-4 mb-3 "><label asp-for="Nombre">Nombre</label><input class="form-control" data-val="true" data-val-maxlength="No exceda de 20 caracteres en el campo Nombre." data-val-maxlength-max="20" data-val-required="El campo Nombre es requerido." id="Nombre" maxlength="20" name="Nombre" type="text" value="" /><small class="field-validation-valid text-danger" data-valmsg-for="Nombre" data-valmsg-replace="true"></small></div>
-                    <div class="col-12 col-md-4 mb-3 "><label asp-for="ApellidoP">Apellido Paterno</label><input class="form-control" data-val="true" data-val-maxlength="No exceda de 20 caracteres en el campo Apellido Paterno." data-val-maxlength-max="20" data-val-required="El campo Apellido Paterno es requerido." id="ApellidoP" maxlength="20" name="ApellidoP" type="text" value="" /><small class="field-validation-valid text-danger" data-valmsg-for="ApellidoP" data-valmsg-replace="true"></small></div>
-                    <div class="col-12 col-md-4 mb-3 "><label asp-for="ApellidoM">Apellido Materno <small class="text-muted">(opcional)</small></label><input class="form-control" data-val="true" data-val-maxlength="No exceda de 20 caracteres en el campo Apellido Materno." data-val-maxlength-max="20" id="ApellidoM" maxlength="20" name="ApellidoM" type="text" value="" /><small class="field-validation-valid text-danger" data-valmsg-for="ApellidoM" data-valmsg-replace="true"></small></div>
+           <div class="col-12 col-md-4 mb-3 "><label for="Nombre">Nombre</label><input class="form-control" data-val="true" data-val-maxlength="No exceda de 20 caracteres en el campo Nombre." data-val-maxlength-max="20" data-val-required="El campo Nombre es requerido." id="Nombre" maxlength="20" name="Nombre" type="text" value="" /><small class="field-validation-valid text-danger" data-valmsg-for="Nombre" data-valmsg-replace="true"></small></div>
+
+                    <div class="col-12 col-md-4 mb-3 "><label for="APaterno">Apellido Paterno</label><input class="form-control" data-val="true" data-val-maxlength="No exceda de 20 caracteres en el campo Apellido Paterno." data-val-maxlength-max="20" data-val-required="El campo Apellido Paterno es requerido." id="APaterno" maxlength="20" name="APaterno" type="text" value="" /><small class="field-validation-valid text-danger" data-valmsg-for="APaterno" data-valmsg-replace="true"></small></div>
+
+                    <div class="col-12 col-md-4 mb-3 "><label for="ApellidoM">Apellido Materno <small class="text-muted">(opcional)</small></label><input class="form-control" data-val="true" data-val-maxlength="No exceda de 20 caracteres en el campo Apellido Materno." data-val-maxlength-max="20" id="ApellidoM" maxlength="20" name="ApellidoM" type="text" value="" /><small class="field-validation-valid text-danger" data-valmsg-for="ApellidoM" data-valmsg-replace="true"></small></div>
                 </div>
+    </div>
+
 
            <div class="form-group">Correo:
             <input asp-for="Correo" class="form-control" />
@@ -35,5 +43,3 @@
         </div>
       </form>
       </div>
-
-
