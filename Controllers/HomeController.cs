@@ -53,6 +53,8 @@ namespace jbchorg.Controllers
             if (ModelState.IsValid) {
                 // Guardar el mensaje en BD
                 //falta el envio de datos al correo 
+                //viendo el diseño ya se me actualizo el net core y 
+                //ya no sale error en el using system.Net.Mail
                 return RedirectToAction("Confirmacion");
             }
             
