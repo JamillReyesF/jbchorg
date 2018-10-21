@@ -1,15 +1,19 @@
-﻿
-@model JBCHORG.Models.Mensaje
+﻿@model JBCHORG.Models.Mensaje
 
 @{
     ViewData["Title"] = "Contacto";
 }
-<h1>Contacto</h1>
-<p>Complete el siguiente formulario y un asesor se contactará para resolver sus dudas.</p>
-        <div class="col-md-8 offset-md-2">
+<div>
+<div class="container">
+    <div class="px-3 py-3 pb-md-4 mx-auto text-center">
+<h1 class="display-4">Contacto</h1>
+<p class="lead">Complete el siguiente formulario y un asesor se contactará para resolver sus dudas.</p>
+    </div>
+    <div class="row">
+    <div class="col-md-8 offset-md-2">    
 <h3>Formulario de contacto de correo</h3>
-        </div>
-
+<hr/></div>
+    </div>
 @Html.ValidationSummary()
 
     <div class="row">
@@ -27,14 +31,21 @@
     </div>
 
 
-           <div class="form-group">Correo:
-            <input asp-for="Correo" class="form-control" />
-           </div>
+            <div class="row">
+                    <div class="col-12 col-md-6 mb-3 "><label for="Email">Correo electronico</label><input class="form-control" data-val="true" data-val-email="The Correo electronico field is not a valid e-mail address." data-val-maxlength="No exceda de 30 caracteres en el campo Correo electronico." data-val-maxlength-max="30" data-val-required="El campo Correo electronico es requerido." id="Email" maxlength="30" name="Email" type="email" value="" /><small class="field-validation-valid text-danger" data-valmsg-for="Email" data-valmsg-replace="true"></small></div>
 
-         <div class="form-group">Mensaje:
-            <textarea rows="4" cols="50" asp-for="Texto" class="form-control" />
-            </textarea>
-        </div>
+                    <div class="col-12 col-md-6 mb-3 "><label for="Celular">Telofono de contacto</label><input class="form-control" data-val="true" data-val-maxlength="No exceda de 20 caracteres en el campo Telefofono de contacto." data-val-maxlength-max="20" data-val-required="El campo Telefofono de contacto es requerido." id="Celular" maxlength="30" name="Celular" type="text" value="" /><small class="field-validation-valid text-danger" data-valmsg-for="Celular" data-valmsg-replace="true"></small></div>
+                </div>
+
+
+         <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-8 "><label for="Asunto">Asunto</label><input class="form-control" data-val="true" data-val-maxlength="No exceda de 100 caracteres en el campo Asunto." data-val-maxlength-max="100" data-val-required="El campo Asunto es requerido." id="Asunto" maxlength="100" name="Asunto" type="text" value="" /><small class="field-validation-valid text-danger" data-valmsg-for="Asunto" data-valmsg-replace="true"></small></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-8 "><label for="Descripcion">Mensaje</label><textarea class="form-control" data-val="true" data-val-required="El campo Mensaje es requerido." id="Descripcion" name="Descripcion" rows="4">
+</textarea><span class="field-validation-valid text-danger" data-valmsg-for="Descripcion" data-valmsg-replace="true"></span></div>
+                </div>
+
 
         <div class="form-group">
             <input type="submit" value="Enviar" class="btn btn-primary" />
@@ -43,3 +54,5 @@
         </div>
       </form>
       </div>
+      </div>
+
