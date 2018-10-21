@@ -5,6 +5,7 @@ namespace jbchorg.Models
 {
     public class Mensaje
     {
+        //ver si esta bien tipiado 
         [EmailAddress]
         [Required(ErrorMessage = "Ingrese su Email")]
         public string Email { get; set; }
@@ -15,6 +16,7 @@ namespace jbchorg.Models
 
         public string Celular { get; set; }
         public string Asunto  { get; set; }
+        
         public string Descripcion { get; set; }
 
     }

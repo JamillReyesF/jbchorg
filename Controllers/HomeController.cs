@@ -9,6 +9,8 @@ using System.Net.Mail;
 
 namespace jbchorg.Controllers
 {
+
+//me sale que el net la version es antiga 
     public class HomeController : Controller
     {
         public IActionResult Index()
@@ -71,6 +73,8 @@ namespace jbchorg.Controllers
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+
+        //no lo reconoce
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
