@@ -10,8 +10,8 @@ namespace jbchorg.Models
         [Required]
         public string Nombre { get; set; }
         [Required]
-        public string APaterno { get; set; }
-        public string AMaterno { get; set; }
+        public string ApellidoP { get; set; }
+        public string ApellidoM { get; set; }
         public string Movil { get; set; }
         public string Asunto { get; set; }
         public string Texto { get; set; }

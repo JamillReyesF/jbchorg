@@ -72,3 +72,9 @@ C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.Vi
 C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.dll
 C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.pdb
 C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.csproj.CopyComplete
+C:\Users\user\Desktop\jbchorg\jbchorg\bin\Debug\netcoreapp2.1\jbchorg.deps.json
+C:\Users\user\Desktop\jbchorg\jbchorg\bin\Debug\netcoreapp2.1\jbchorg.runtimeconfig.json
+C:\Users\user\Desktop\jbchorg\jbchorg\bin\Debug\netcoreapp2.1\jbchorg.runtimeconfig.dev.json
+C:\Users\user\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.AssemblyInfo.cs
+C:\Users\user\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.dll
+C:\Users\user\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.pdb
