@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>@ViewData["Title"] - jbch</title>
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -29,12 +30,12 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Inicio</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Institucion">Nuestra Institución</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Asociado">Asociado</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Servicio">Servicio</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Proyecto">Proyecto</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contacto">Contáctenos</a></li>                   
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index"><i class="material-icons" style="font-size:20px">home</i> Inicio</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Institucion"><i class="material-icons" style="font-size:20px">location_city</i> Nuestra Institución</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Asociado"><i class="material-icons" style="font-size:20px">perm_identity</i> Asociado</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Servicio"><i class="material-icons" style="font-size:20px">weekend</i> Servicio</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Proyecto"><i class="material-icons" style="font-size:20px">store</i> Proyecto</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contacto"><i class="material-icons" style="font-size:20px">message</i> Contacto</a></li>                   
                 </ul>
             </div>
         </div>
@@ -57,10 +58,9 @@
   </div>
 
   <div class="col-md-4">
-    <p><a href="mailto:mail.jbch.org.pe" target="_top"><img src="~/images/mail.png"></a></p>
-    <p>JBCH Email</p>
+    <p><a href="mailto:mail.jbch.org.pe" target="_top"><img src="~/images/mail.png"></a>JBCH Email</p>
     <p><a href="mailto:webmaster@jbch.org.pe" target="_top">webmaster@jbch.org.pe</a></p>
-    <p><img src="~/images/local.png" ></p>
+    <p><img src="~/images/local.png"></p>
     <p>Junta de Beneficencia de Chosica</p>
     <p>Av. La Molina 1885 - La Molina</p>
   </div>
