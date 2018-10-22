@@ -10,7 +10,7 @@
     </div>
     <div class="row">
     <div class="col-md-8 offset-md-2">    
-<h3><label>Formulario de contacto de correo</label></h3>
+<h3><label>Formulario de contacto</label></h3>
 </div>
     </div>
     <hr/>
@@ -47,19 +47,20 @@
                <input asp-for="Movil" class="form-control" />
                </div>
            </div>
-           <div class="col-md-8">
+           <div class="col-md-12">
                <div class="form-group"><label>Asunto:</label>
                <input asp-for="Asunto" class="form-control" />
                </div>
            </div>
-            <div class="col-md-8">
-           <div class="form-group"><label>Mensaje:</label>
-            <textarea row="4" cols="100" asp-for="Descripcion" class="form-control" />
+            <div class="col-md-12">
+           <div class="form-group"><label for="descripcion">Mensaje:</label>
+            <textarea class="form-control" asp-for="Descripcion" rows="5" id="comment"></textarea>
             </textarea>
             </div>
+            
         <div class="form-group">
-            <input type="submit" value="Enviar" class="btn btn-primary" />
-            <button type="reset" value="Reset" class="btn btn-primary" />Reset</button>
+            <input type="submit" value="Enviar Mensaje de Contacto" class="btn btn-primary" />
+            <input type="reset" value="Limpiar Campo" class="btn btn-primary" />
         </div>
         </div>
       </form>
