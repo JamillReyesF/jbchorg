@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using jbchorg.Models;
-using System.Net.Mail;
+
 
 namespace jbchorg.Controllers
 {
