@@ -6,9 +6,9 @@ body {
     font-size: 12rem;
     padding-top: 50px;
     padding-bottom: 20px;
-    color: rgb(59, 61, 63);
+    color:#008B8B;
     text-align: left;
-    background-color: #fff;
+    background-color: #F7F9F9;
 }
 article, aside, dialog, figcaption, figure, footer, header, hgroup,
 main, nav, section {
@@ -16,7 +16,7 @@ main, nav, section {
 }
 footer{
     font-size: 12px;
-    background-color:#17202A;
+    background-color:#1B2631;
 }
 foote{
     font-size: 12px;
