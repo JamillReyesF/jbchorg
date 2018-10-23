@@ -59,6 +59,8 @@ namespace jbchorg.Controllers
                 //ya no sale error en el using system.Net.Mail
                 // estoy avanzando el diseño y el envio al correo que dando gracias que ya nos contactaremos 
                 //prueba ya que en mi maquina el net.mail no lo reconoce 
+                //ya con este programita de internet he probado para el envio de correo a tu detinatario
+                //tengo que enviar datos a la base de datos 
                 
      System.Net.Mail.MailMessage mmsg = new System.Net.Mail.MailMessage();
 
