@@ -113,8 +113,10 @@ namespace jbchorg.Controllers
             //Enviamos el mensaje      
             cliente.Send(mmsg);
         }
+        //preguntar por esta libreria 
         catch (System.Net.Mail.SmtpException ex)
         {
+
             //Aquí gestionamos los errores al intentar enviar el correo
         }   
           
