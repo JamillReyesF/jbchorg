@@ -33,7 +33,7 @@ namespace jbchorg.Controllers
                 //ya con este programita de internet he probado para el envio de correo a tu detinatario
                 //tengo que enviar datos a la base de datos 
 
-System.Net.Mail.MailMessage mmsg = new System.Net.Mail.MailMessage();
+        System.Net.Mail.MailMessage mmsg = new System.Net.Mail.MailMessage();
 
         //Direccion de correo electronico a la que queremos enviar el mensaje
         mmsg.To.Add("jesus_reyes@usmp.pe");
@@ -57,7 +57,7 @@ System.Net.Mail.MailMessage mmsg = new System.Net.Mail.MailMessage();
         mmsg.IsBodyHtml = false; //Si no queremos que se envíe como HTML
 
         //Correo electronico desde la que enviamos el mensaje
-        mmsg.From = new System.Net.Mail.MailAddress("romerochocano79@gmail.com");
+        mmsg.From = new System.Net.Mail.MailAddress("jamillreyesf@gmail.com");
 
 
         /*-------------------------CLIENTE DE CORREO----------------------*/
@@ -67,7 +67,7 @@ System.Net.Mail.MailMessage mmsg = new System.Net.Mail.MailMessage();
 
         //Hay que crear las credenciales del correo emisor
         cliente.Credentials =
-            new System.Net.NetworkCredential("jamill.reyes@iin.sld.pe", "Soniamorales1");
+            new System.Net.NetworkCredential("jamillreyesf@gmail.com", "Soporte1");
 
         //Lo siguiente es obligatorio si enviamos el mensaje desde Gmail
         
