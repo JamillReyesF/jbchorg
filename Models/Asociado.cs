@@ -2,6 +2,7 @@ namespace jbchorg.Models
 {
     public class Asociado
     {
+        public int Id {get; set;}
         public int Dni { get; set; }
         public string Nombre { get; set; }
         public string APaterno { get; set; }

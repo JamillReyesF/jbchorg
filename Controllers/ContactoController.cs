@@ -15,6 +15,12 @@ namespace jbchorg.Controllers
 // en  mi carpeta particualar que trabajo si corre y se muestra el formulario de contacto
     public class ContactoController : Controller
     {
+        private readonly JbchorgDBContext context;
+
+
+        public ContactoController(JbchorgDBContext c){
+            context = c;
+        }
         public IActionResult Contacto()
         {
             ViewData["Message"] = "Your contact page.";
@@ -60,6 +66,7 @@ namespace jbchorg.Controllers
         mmsg.From = new System.Net.Mail.MailAddress("jamillreyesf@gmail.com");
 
 
+
         /*-------------------------CLIENTE DE CORREO----------------------*/
 
         //Creamos un objeto de cliente de correo
@@ -92,6 +99,12 @@ namespace jbchorg.Controllers
         }   
           
 
+                context.Add(m);    
+            
+           
+                context.SaveChanges();
+
+ 
                 return RedirectToAction("Confirmacion");
             }
             

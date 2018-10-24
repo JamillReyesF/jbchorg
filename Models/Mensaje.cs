@@ -5,6 +5,8 @@ namespace jbchorg.Models
 {
     public class Mensaje
     {
+        public int Id {get; set;}
+        
         //ver si esta bien tipiado 
         [EmailAddress]
         [Required(ErrorMessage = "Ingrese su Email")]

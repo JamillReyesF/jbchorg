@@ -13,8 +13,18 @@ namespace jbchorg.Controllers
 
 //me sale que el net la version es antiga 
 // en  mi carpeta particualar que trabajo si corre y se muestra el formulario de contacto
+ 
+   
+ 
     public class HomeController : Controller
     {
+
+        private readonly JbchorgDBContext context;
+
+
+        public HomeController(JbchorgDBContext c){
+            context = c;
+        }
         public IActionResult Index()
         {
             return View();

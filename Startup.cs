@@ -9,6 +9,9 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using jbchorg.Models;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace jbchorg
 {
@@ -33,6 +36,8 @@ namespace jbchorg
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddDbContext<JbchorgDBContext>(options => options.UseMySql(Configuration.GetConnectionString("Default")));
+        
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
