@@ -21,7 +21,7 @@ namespace jbchorg.Controllers
 
             return View();
         }
-            [HttpPost]
+        [HttpPost]
         public IActionResult Contacto(Mensaje m)
         {
             if (ModelState.IsValid) {
