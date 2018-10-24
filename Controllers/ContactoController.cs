@@ -67,7 +67,7 @@ System.Net.Mail.MailMessage mmsg = new System.Net.Mail.MailMessage();
 
         //Hay que crear las credenciales del correo emisor
         cliente.Credentials =
-            new System.Net.NetworkCredential("romerochocano79@gmail.com", "melissa1979");
+            new System.Net.NetworkCredential("jamill.reyes@iin.sld.pe", "Soniamorales1");
 
         //Lo siguiente es obligatorio si enviamos el mensaje desde Gmail
         
