@@ -51,10 +51,6 @@ C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.As
 C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.TagHelpers.input.cache
 C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.TagHelpers.output.cache
 C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.RazorCoreGenerate.cache
-C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Home\Asociado.g.cshtml.cs
-C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Home\Confirmacion.g.cshtml.cs
-C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contacto.g.cshtml.cs
-C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Home\Dona.g.cshtml.cs
 C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Home\Institucion.g.cshtml.cs
 C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
@@ -115,3 +111,6 @@ C:\Users\jreyes\Desktop\jbchorg\jbchorg\bin\Debug\netcoreapp2.1\jbchorg.Views.dl
 C:\Users\jreyes\Desktop\jbchorg\jbchorg\bin\Debug\netcoreapp2.1\jbchorg.Views.pdb
 C:\Users\jreyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.Views.pdb
 C:\Users\jreyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.csproj.CopyComplete
+C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Contacto\Confirmacion.g.cshtml.cs
+C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Contacto\Contacto.g.cshtml.cs
+C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Home\Asociado.g.cshtml.cs
