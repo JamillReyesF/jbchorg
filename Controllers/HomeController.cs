@@ -39,13 +39,13 @@ namespace jbchorg.Controllers
 
         public IActionResult Asociado()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Your asociated page.";
 
             return View();
         }
         public IActionResult Servicio()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Your service page.";
 
             return View();
         }
