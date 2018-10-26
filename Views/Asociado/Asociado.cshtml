@@ -1,14 +1,11 @@
-@model jbchorg.Models.Asociado
+@model Asociado
 
 @{
-    ViewData["Title"] = "Contacto";
+    ViewData["Title"] = "Asociado";
 }
 
 <div class="container">
     <div class="px-3 py-3 pb-md-4 mx-auto text-center">
-<h1>Asociado</h1>
-<h3>Complete el siguiente formulario</h3>
-    </div>
     <div class="row">
     <div class="col-md-8 offset-md-2">    
 <h3><label>Formulario de Asociado</label></h3>
@@ -16,13 +13,9 @@
     </div>
     <hr/>
 @Html.ValidationSummary()
-
     <div class="row">
-
           <div class="col-md-10">
-
             <form asp-action="Asociado" >
-
            <div class="col-md-4">
                <div class="form-group"><label>Nombre:</label>
                <input asp-for="Nombre" class="form-control" />
@@ -48,22 +41,19 @@
                <input asp-for="Movil" class="form-control" />
                </div>
            </div>
-           <div class="col-md-4">
+           <div class="col-md-8">
                <div class="form-group"><label>Tipo de Asociado:</label>
                <input asp-for="TipoAsociado" class="form-control" />
                </div>
            </div>
-           <div>
-           </div>
-            <div class="col-md-4">
+            <div class="col-md-8">
            <div class="form-group"><label for="descripcion">Grado Academico:</label>
            <input asp-for="GAcademico" class="form-control" />
             </div>
-            
-             <div class="form-group">
-        <button type="submit" class="btn btn-primary">Registar Asociado</button>
-         </div>
-        </div>
+            <div class="form-group">
+               <button type="submit" class="btn btn-primary">Registar Asociado</button>
+            </div>
+            </div>
       </form>
       </div>
       </div>

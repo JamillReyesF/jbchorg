@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace jbchorg.Migrations
 {
-    public partial class INICIO : Migration
+    public partial class incio : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,8 +13,7 @@ namespace jbchorg.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Dni = table.Column<int>(nullable: false),
-                    Nombre = table.Column<string>(nullable: true),
+                    Nombre = table.Column<string>(nullable: false),
                     APaterno = table.Column<string>(nullable: true),
                     AMaterno = table.Column<string>(nullable: true),
                     Correo = table.Column<string>(nullable: true),

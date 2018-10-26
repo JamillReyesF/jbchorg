@@ -12,12 +12,32 @@ namespace jbchorg.Controllers
 
    public class AsociadoController : Controller
     {
+        private readonly JbchorgDBContext context;
+        public AsociadoController(JbchorgDBContext c){
+            context = c;
+        }
         public IActionResult Asociado()
         {
             ViewData["Message"] = "Your contact page.";
-
+        
             return View();
         }
+        [HttpPost]
+        public IActionResult Asociado(Asociado aso)
+        {
+            if(ModelState.IsValid){
+                context.Add(aso);    
+                context.SaveChanges();
+               return RedirectToAction("Confirmacion");
+            }
+             return View(aso);
+        }
+         public IActionResult Confirmacion()
+        {
+            ViewData["Message"] = "Your contact page.";
         
+            return View();
+        }
+  
     }
 }
