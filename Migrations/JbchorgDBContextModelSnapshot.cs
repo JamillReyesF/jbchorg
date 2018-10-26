@@ -27,13 +27,12 @@ namespace jbchorg.Migrations
 
                     b.Property<string>("Correo");
 
-                    b.Property<int>("Dni");
-
                     b.Property<string>("GAcademico");
 
                     b.Property<string>("Movil");
 
-                    b.Property<string>("Nombre");
+                    b.Property<string>("Nombre")
+                        .IsRequired();
 
                     b.Property<string>("TipoAsociado");
 
