@@ -43,6 +43,18 @@ namespace jbchorg.Controllers
 
             return View();
         }
+        public IActionResult Activos()
+        {
+            ViewData["Message"] = "Your asociated page.";
+
+            return View();
+        }
+        public IActionResult Donacion()
+        {
+            ViewData["Message"] = "Your asociated page.";
+
+            return View();
+        }
         public IActionResult Servicio()
         {
             ViewData["Message"] = "Your service page.";
