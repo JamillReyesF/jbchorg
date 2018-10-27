@@ -32,7 +32,7 @@ namespace jbchorg.Controllers
 
         public IActionResult Institucion()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Your institution page.";
 
             return View();
         }
@@ -45,13 +45,13 @@ namespace jbchorg.Controllers
         }
         public IActionResult Activos()
         {
-            ViewData["Message"] = "Your asociated page.";
+            ViewData["Message"] = "Your assets page.";
 
             return View();
         }
         public IActionResult Donacion()
         {
-            ViewData["Message"] = "Your asociated page.";
+            ViewData["Message"] = "Your donation page.";
 
             return View();
         }
@@ -63,7 +63,7 @@ namespace jbchorg.Controllers
         }
         public IActionResult Proyecto()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Your project page.";
 
             return View();
         }
