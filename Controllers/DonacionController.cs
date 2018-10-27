@@ -25,8 +25,7 @@ namespace jbchorg.Controllers
         public IActionResult Donacion(Donacion don)
         {
             if(ModelState.IsValid){
-                context.Add(don);    
-                context.SaveChanges();
+               
                return RedirectToAction("DConfirmacion");
             }
              return View(don);
