@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace jbchorg.Migrations
 {
-    public partial class incio : Migration
+    public partial class inicialtwo : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -16,10 +16,10 @@ namespace jbchorg.Migrations
                     Nombre = table.Column<string>(nullable: false),
                     APaterno = table.Column<string>(nullable: true),
                     AMaterno = table.Column<string>(nullable: true),
-                    Correo = table.Column<string>(nullable: true),
-                    Movil = table.Column<string>(nullable: true),
+                    Correo = table.Column<string>(nullable: false),
                     TipoAsociado = table.Column<string>(nullable: true),
-                    GAcademico = table.Column<string>(nullable: true)
+                    GAcademico = table.Column<string>(nullable: true),
+                    Area = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

@@ -8,8 +8,8 @@ using jbchorg.Models;
 namespace jbchorg.Migrations
 {
     [DbContext(typeof(JbchorgDBContext))]
-    [Migration("20181026220110_incio")]
-    partial class incio
+    [Migration("20181027050037_inicialtwo")]
+    partial class inicialtwo
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -27,11 +27,12 @@ namespace jbchorg.Migrations
 
                     b.Property<string>("APaterno");
 
-                    b.Property<string>("Correo");
+                    b.Property<string>("Area");
+
+                    b.Property<string>("Correo")
+                        .IsRequired();
 
                     b.Property<string>("GAcademico");
-
-                    b.Property<string>("Movil");
 
                     b.Property<string>("Nombre")
                         .IsRequired();

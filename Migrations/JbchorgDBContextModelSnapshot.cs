@@ -25,11 +25,12 @@ namespace jbchorg.Migrations
 
                     b.Property<string>("APaterno");
 
-                    b.Property<string>("Correo");
+                    b.Property<string>("Area");
+
+                    b.Property<string>("Correo")
+                        .IsRequired();
 
                     b.Property<string>("GAcademico");
-
-                    b.Property<string>("Movil");
 
                     b.Property<string>("Nombre")
                         .IsRequired();

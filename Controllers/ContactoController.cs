@@ -57,7 +57,8 @@ namespace jbchorg.Controllers
         mmsg.Body = "Datos Personales :\n\tNombre : "+m.Nombre+"\n\tApellido Paterno: "+m.APaterno+
                     "\n\tApellido Materno : "+m.AMaterno+"\n\tCorreo : "+m.Correo+
                     "\n\tTelefono : "+m.Movil+
-                    "\n\tAsunto : "+m.Asunto+"\n\t\t"+m.Descripcion;
+                    "\n\tAsunto : "+m.Asunto+
+                    "\n\tDescripcion: "+m.Descripcion;
         ;
         mmsg.BodyEncoding = System.Text.Encoding.UTF8;
         mmsg.IsBodyHtml = false; //Si no queremos que se envíe como HTML

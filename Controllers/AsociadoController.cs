@@ -28,11 +28,11 @@ namespace jbchorg.Controllers
             if(ModelState.IsValid){
                 context.Add(aso);    
                 context.SaveChanges();
-               return RedirectToAction("Confirmacion");
+               return RedirectToAction("AConfirmacion");
             }
              return View(aso);
         }
-         public IActionResult Confirmacion()
+         public IActionResult AConfirmacion()
         {
             ViewData["Message"] = "Your contact page.";
         
