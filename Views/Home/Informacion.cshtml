@@ -1,0 +1,45 @@
+﻿@model jbchorg.Models.Informacion
+
+@{
+    ViewData["Title"] = "INFORMACION DE INVESTIGADOR";
+}
+<h2>@ViewData["Title"].</h2>
+<div class="row">
+<div class="col-md-4">
+<form asp-action="Informacion">
+        <div class="form-group">Id:
+            <input asp-for="Id" class="form-control" />
+        </div>
+        <div class="form-group">Nombre:
+            <input asp-for="Nombre" class="form-control" />
+        </div>
+<div class="form-group">Correo:
+            <input asp-for="Correo" class="form-control" />
+        </div>
+        <div class="form-group">Estado Civil:
+            <select asp-for="EstadoCivil" class="form-control" />
+             <option value="Single">Soltero</option>
+             <option value="Married">Casado</option>
+             <option value="Divorced">Divorciado</option>
+             </select>
+        </div>
+              <div class="=form-group">Nombre del Investigador:
+            <select asp-for="Investigador" class="form-control"/>
+               <option value="Mary E.Penny I ">Mary E.Peny</option>
+                <option value="Enrique Morales">Enrique Morales</option>
+                <option value="Actividades I">Actividades I </option>
+            </select>
+        </div><br/>
+    <div class="form-group">Cantidad de Donaciones  :
+        <input asp-for="Dona1" class="form-control" />
+    </div>
+               <br/>
+    
+
+    <div class="form-group">
+        <input type="submit" value="Inscribirse" class="btn btn-primary" />
+    </div>
+</form
+</div>
+</div>
+<h3>@ViewData["Message"]</h3>

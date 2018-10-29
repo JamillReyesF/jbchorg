@@ -67,6 +67,30 @@ namespace jbchorg.Controllers
 
             return View();
         }
+        public IActionResult Informacion()
+        {
+            ViewData["Message"] = "Ingrese sus datos.";
+
+            return View();
+        }
+        public IActionResult Información()
+        {
+            ViewData["Message"] = "Informacion.";
+
+            return View();
+        }
+
+         public IActionResult CalcularCantDonacion(Informacion info)
+        {
+            const int precDonacion = 8;
+            
+            info.Result=(info.Dona1+info.Dona2)*precDonacion;
+            
+            ViewData["Message"] = "Total de la Cantidad de donaciones son:"+info.Result+" Cantidad de Donaciones<br>";
+            
+            return View("jbchorg",info);
+           
+        }
 
         public IActionResult Privacy()
         {
