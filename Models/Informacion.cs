@@ -16,6 +16,7 @@ namespace jbchorg.Models
         [Required(ErrorMessage = "Ingrese su Nombre")]
         public string Nombre { get; set; }
         public string EstadoCivil { get; set; }
+        
         public string Investigador { get; set; }
 
         public int Dona1 { get; set; }

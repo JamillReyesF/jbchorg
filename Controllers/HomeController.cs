@@ -82,9 +82,11 @@ namespace jbchorg.Controllers
 
          public IActionResult CalcularCantDonacion(Informacion info)
         {
-            const int precDonacion = 8;
+              const int precDonacion = 8;
+
+              
             
-            info.Result=(info.Dona1+info.Dona2)*precDonacion;
+              info.Result=(info.Dona1+info.Dona2)*precDonacion;
             
             ViewData["Message"] = "Total de la Cantidad de donaciones son:"+info.Result+" Cantidad de Donaciones<br>";
             
