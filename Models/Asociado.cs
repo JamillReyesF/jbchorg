@@ -11,8 +11,8 @@ namespace jbchorg.Models
         [EmailAddress]
         [Required(ErrorMessage = "Ingrese su Email")]
         public string Correo { get; set; }
-
-        public string TipoAsociado { get; set; }
+        public TAsociado TAsociado{get;set;}
+        public int? TAsociadoId{get;set;}
         public string GAcademico  { get; set; }
         public string Area { get; set; }
         

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using jbchorg.Models;
-using System.Net.Mail;
+using Microsoft.EntityFrameworkCore;
 
 namespace jbchorg.Controllers
 {
@@ -16,7 +16,22 @@ namespace jbchorg.Controllers
         public AsociadoController(JbchorgDBContext c){
             context = c;
         }
-        public IActionResult Asociado()
+        public IActionResult Asociados(string buscar){
+            var Asociados = context.Asociados.Include(e => e.TAsociado).AsQueryable();
+            if(!string.IsNullOrEmpty(buscar))
+            {
+                Asociados = Asociados.Where(e => e.Nombre.Contains(buscar) || e.APaterno.Contains(buscar) || e.TAsociado.Nombre.Contains(buscar)); 
+            }
+            ViewBag.buscar = buscar;
+            return View(Asociados.OrderBy(e => e.APaterno).ToList());
+        }
+
+    }
+      
+       
+}
+    /* 
+      public IActionResult Asociado()
         {
             ViewData["Message"] = "Your contact page.";
         
@@ -39,5 +54,6 @@ namespace jbchorg.Controllers
             return View();
         }
   
-    }
-}
+
+    */
+    
