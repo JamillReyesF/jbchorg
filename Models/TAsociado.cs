@@ -7,7 +7,7 @@ namespace jbchorg.Models
         public string Nombre{get;set;}
         public List<Asociado> Asociado {get;set;}
         public TAsociado(){
-            Asociado = new List<Asociado>();
+            Asociados = new List<Asociado>();
         }
     }
 }

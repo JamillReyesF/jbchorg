@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using jbchorg.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace jbchorg.Controllers
 {
@@ -25,10 +26,32 @@ namespace jbchorg.Controllers
             ViewBag.buscar = buscar;
             return View(Asociados.OrderBy(e => e.APaterno).ToList());
         }
+        public IActionResult Asociado(){
+            PrecargaDeDatos();
+            return View();
+        }
+        public void PrecargaDeDatos(){
+            ViewBag.TAsociados = new SelectList(context.TAsociados,"Id", "Nombre");
+        }
+        [HttpPost]
+        public IActionResult Asociado(Asociado aso)
+        {
+            if(ModelState.IsValid){
+                context.Add(aso);    
+                context.SaveChanges();
+               return RedirectToAction("AConfirmacion");
+            }
+            PrecargaDeDatos();
+            return View(aso);
+        }
+         public IActionResult AConfirmacion()
+        {
+            ViewData["Message"] = "Your contact page.";
+        
+            return View();
+        }
 
-    }
-      
-       
+    }     
 }
     /* 
       public IActionResult Asociado()
