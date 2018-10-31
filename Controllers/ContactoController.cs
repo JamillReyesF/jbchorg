@@ -13,6 +13,7 @@ namespace jbchorg.Controllers
 
 //me sale que el net la version es antiga 
 // en  mi carpeta particualar que trabajo si corre y se muestra el formulario de contacto
+//ver si en esta caropeta hago mi constructor para llamar a mi moledo y vista de listar contacto
     public class ContactoController : Controller
     {
         private readonly JbchorgDBContext context;

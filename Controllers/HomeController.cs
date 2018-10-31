@@ -67,6 +67,17 @@ namespace jbchorg.Controllers
 
             return View();
         }
+
+        // aqui hago mi constructor para hacer mi pagina donde 
+        // a travez de la base de datos liste los contactos ingresados
+        //y asi pueda hacer mi filtro y hacer mi busqueda ya se por nombre 
+        //correo o apellidos
+          public IActionResult ListadoContacto()
+        {
+            ViewData["Message"] = "Your project page.";
+
+            return View();
+        }
         public IActionResult Informacion()
         {
             ViewData["Message"] = "Ingrese sus datos.";
