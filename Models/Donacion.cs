@@ -15,7 +15,8 @@ namespace jbchorg.Models
         public string APaterno  { get; set; }
         public string AMaterno { get; set; }
         public string Movil { get; set; }
-        public string Asunto  { get; set; }
-        public string Descripcion { get; set; }
+        public string Monto { get; set; }
+        public string Banco  { get; set; }
+        public string Tarjeta { get; set; }
     }
 }
