@@ -78,6 +78,16 @@ namespace jbchorg.Controllers
 
             return View();
         }
+        // aqui envio para ser visto en la pagina contacto
+        [HttpPost]
+		public IActionResult ListadoContacto(
+             ListadeContacto listcontac)
+		{
+			
+            ViewData["Message"] = "Entro a la pagina listado de contacto";
+
+            return View("ListadoContacto");
+		}
         public IActionResult Informacion()
         {
             ViewData["Message"] = "Ingrese sus datos.";
