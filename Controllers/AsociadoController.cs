@@ -17,44 +17,7 @@ namespace jbchorg.Controllers
         public AsociadoController(JbchorgDBContext c){
             context = c;
         }
-        public IActionResult Asociados(string buscar){
-            var Asociados = context.Asociados.Include(e => e.TAsociado).AsQueryable();
-            if(!string.IsNullOrEmpty(buscar))
-            {
-                Asociados = Asociados.Where(e => e.Nombre.Contains(buscar) || e.APaterno.Contains(buscar) || e.TAsociado.Nombre.Contains(buscar)); 
-            }
-            ViewBag.buscar = buscar;
-            return View(Asociados.OrderBy(e => e.APaterno).ToList());
-        }
-        public IActionResult Asociado(){
-            PrecargaDeDatos();
-            return View();
-        }
-        public void PrecargaDeDatos(){
-            ViewBag.TAsociados = new SelectList(context.TAsociados,"Id", "Nombre");
-        }
-        [HttpPost]
-        public IActionResult Asociado(Asociado aso)
-        {
-            if(ModelState.IsValid){
-                context.Add(aso);    
-                context.SaveChanges();
-               return RedirectToAction("AConfirmacion");
-            }
-            PrecargaDeDatos();
-            return View(aso);
-        }
-         public IActionResult AConfirmacion()
-        {
-            ViewData["Message"] = "Your contact page.";
-        
-            return View();
-        }
-
-    }     
-}
-    /* 
-      public IActionResult Asociado()
+        public IActionResult Asociado()
         {
             ViewData["Message"] = "Your contact page.";
         
@@ -77,6 +40,11 @@ namespace jbchorg.Controllers
             return View();
         }
   
+        
+    }     
+}
+    /* 
+      
 
     */
     
