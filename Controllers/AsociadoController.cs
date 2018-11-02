@@ -8,6 +8,7 @@ using jbchorg.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
+
 namespace jbchorg.Controllers
 {
 
@@ -33,12 +34,22 @@ namespace jbchorg.Controllers
             }
              return View(aso);
         }
-         public IActionResult AConfirmacion()
+        public IActionResult AConfirmacion()
         {
             ViewData["Message"] = "Your contact page.";
         
             return View();
         }
+        public async Task<IActionResult> Asociados (string fNom)
+        {
+             var asociados = from m in context.Asociado
+             select m;
+             if(!String.IsNullOrEmpty(fNom))
+             {
+                 asociados = asociados.Where(s => s.Nombre.Contains(fNom)); 
+             }   
+             return View(await asociados.ToListAsync());
+        }   
   
         
     }     

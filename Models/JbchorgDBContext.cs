@@ -9,8 +9,8 @@ namespace jbchorg.Models
 		public JbchorgDBContext(DbContextOptions<JbchorgDBContext> options) : base(options) {
 		}
 	
-        public DbSet<Mensaje> Mensajes { get; set; }
-		public DbSet<Asociado> Asociados { get; set; }
+        public DbSet<Mensaje> Mensaje { get; set; }
+		public DbSet<Asociado> Asociado { get; set; }
    
 	}
 }
