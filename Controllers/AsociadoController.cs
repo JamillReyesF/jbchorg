@@ -25,6 +25,7 @@ namespace jbchorg.Controllers
             return View();
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Asociado(Asociado aso)
         {
             if(ModelState.IsValid){

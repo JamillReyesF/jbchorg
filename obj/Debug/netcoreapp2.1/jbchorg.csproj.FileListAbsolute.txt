@@ -203,3 +203,6 @@ C:\Users\Moli\Desktop\jbchorg\bin\Debug\netcoreapp2.1\jbchorg.Views.dll
 C:\Users\Moli\Desktop\jbchorg\bin\Debug\netcoreapp2.1\jbchorg.Views.pdb
 C:\Users\Moli\Desktop\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.Views.pdb
 C:\Users\Moli\Desktop\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.csproj.CopyComplete
+C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Students\Create.g.cshtml.cs
+C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Students\Index.g.cshtml.cs
+C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Asociado\Asociados.g.cshtml.cs
