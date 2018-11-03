@@ -40,3 +40,4 @@ C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.Ra
 C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.RazorTargetAssemblyInfo.cs
 C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.Views.pdb
 C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.csproj.CopyComplete
+C:\Users\Jamill Reyes\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Proyecto\Proyecto.g.cshtml.cs
