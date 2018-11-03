@@ -117,6 +117,12 @@ namespace jbchorg.Controllers
             return View();
         }
 
+        
+
+// en esta parte enviar los datos de la tabla mensaje que estan guardados en la bd
+// y que se refleje el listado y hacer una busqueda ya sea por nombre apellidos o correo
+
+
        
     }
 }

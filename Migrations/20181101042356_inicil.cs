@@ -3,31 +3,31 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace jbchorg.Migrations
 {
-    public partial class inicialtwo : Migration
+    public partial class inicil : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Asociados",
+                name: "Asociado",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Nombre = table.Column<string>(nullable: false),
-                    APaterno = table.Column<string>(nullable: true),
+                    Nombre = table.Column<string>(maxLength: 20, nullable: false),
+                    APaterno = table.Column<string>(maxLength: 20, nullable: true),
                     AMaterno = table.Column<string>(nullable: true),
                     Correo = table.Column<string>(nullable: false),
-                    TipoAsociado = table.Column<string>(nullable: true),
+                    TAsociado = table.Column<string>(nullable: true),
                     GAcademico = table.Column<string>(nullable: true),
                     Area = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Asociados", x => x.Id);
+                    table.PrimaryKey("PK_Asociado", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Mensajes",
+                name: "Mensaje",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -42,17 +42,17 @@ namespace jbchorg.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Mensajes", x => x.Id);
+                    table.PrimaryKey("PK_Mensaje", x => x.Id);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Asociados");
+                name: "Asociado");
 
             migrationBuilder.DropTable(
-                name: "Mensajes");
+                name: "Mensaje");
         }
     }
 }

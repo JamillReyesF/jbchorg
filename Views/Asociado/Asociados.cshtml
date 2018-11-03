@@ -1,0 +1,57 @@
+@model IEnumerable<jbchorg.Models.Asociado>
+@{
+    ViewData["Title"] = "Publicaciones";
+}
+
+<div class="row">
+<form asp-controller="Asociado" asp-action="Asociados">
+    <div class="col-lg-7">
+    <h3>Publicaciones de Asociados</h3>
+    <input value="" type="text" name="fNom"  class="form-search form-control" placeholder="Búsqueda por Nombre">
+    </div>
+    <div class="col-lg-5">
+        
+        <button type="submit" class="btn btn-primary">Filtar</button>
+    </div>
+</form>
+</div><br/>
+<div class="row">
+<table class="table table-bordered table-responsive table-hover">
+    <thead>
+        <tr>
+            <th>N°</th>
+            <th>Nombre y Apellido</th>
+            <th>Email</th>
+            <th>Tipo de Asociado</th>
+             <th>Grado Academico</th>
+            <th>Áreas de Interés</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                 <td>@Html.DisplayFor(modelItem => item.Id)
+                 </td>
+                 <td>@Html.DisplayFor(modelItem => item.Nombre)
+                     @Html.DisplayFor(modelItem => item.APaterno)
+                     @Html.DisplayFor(modelItem => item.AMaterno)
+                 </td>
+                 <td>@Html.DisplayFor(modelItem => item.Correo)
+                 </td>
+                 <td>@Html.DisplayFor(modelItem => item.TAsociado)
+                 </td>
+                 <td>@Html.DisplayFor(modelItem => item.GAcademico)
+                 </td>
+                  <td>@Html.DisplayFor(modelItem => item.Area)
+                 </td>
+                 <td>
+                     <a asp-action="Asociados" asp-route-id="@item.Id">Details</a>
+                 </td>
+            </tr>
+           
+        }
+    </tbody>
+</table>
+</div>

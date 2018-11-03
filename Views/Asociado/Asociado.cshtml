@@ -1,15 +1,17 @@
 @model Asociado
 
+
 @{
     ViewData["Title"] = "Asociado";
 }
+
   <div class="row"><br/>
          <div class="col-md-4">
          <p><img src="~/images/mpenny.jpg "></p>
     </div>
       <div class="col-md-8">
-      <h1>Mary E. Penny</h1>
-      <h3>Asociada Vitalicia</h3>
+      <h2>Mary Penny</h2>
+      <h3>Asociado Principal</h3>
       <hr/>
       <p><label>Grado Academico:</label></p>
       <p>BA University of Cambridge, UK MBChB School of Medicine, The University of Birmingham, UK MRCP Londres,UK</p>
@@ -25,7 +27,7 @@
   </div>
        </div>
     </div>   
-
+        
 </div>
     </div>
     <h3><label>Formulario de Asociado</label></h3>
@@ -54,12 +56,16 @@
                <input asp-for="Correo" class="form-control" />
                </div>
            </div>
-            <div class="col-md-4">
-               <div class="form-group"><label>Tipo Asociado:</label>
-               <input asp-for="TAsociado" class="form-control" />
-               </div>
-           </div>
-            <div class="col-md-8">
+           <div class="col-md-4">
+            <div class="form-group"><label>Tipo Asociado:</label>
+            <select asp-for="TAsociado" class="form-control" />
+             <option value="Principal">Asociado Principal</option>
+             <option value="Adjunto">Asociado Adjunto</option>
+             <option value="Invitado">Asociado Invitado</option>
+             </select>
+           </div>    
+        </div>
+           <div class="col-md-8">
            <div class="form-group"><label for="descripcion">Grado Academico:</label>
            <input asp-for="GAcademico" class="form-control" />
             </div>
