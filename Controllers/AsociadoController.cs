@@ -41,6 +41,7 @@ namespace jbchorg.Controllers
         
             return View();
         }
+
         public async Task<IActionResult> Asociados (string fNom)
         {
              var asociados = from m in context.Asociado
@@ -48,9 +49,9 @@ namespace jbchorg.Controllers
              if(!String.IsNullOrEmpty(fNom))
              {
                  asociados = asociados.Where(s => s.Nombre.Contains(fNom)); 
-
+             }
              return View(await asociados.ToListAsync());
-                }   
+               
         }
         
        
