@@ -13,7 +13,6 @@ namespace jbchorg.Models
         [Required(ErrorMessage = "Ingrese su Email")]
         public string Correo { get; set; }
         public string TAsociado{get;set;}
-  
         public string GAcademico  { get; set; }
         public string Area { get; set; }
         

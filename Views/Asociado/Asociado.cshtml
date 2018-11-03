@@ -1,9 +1,39 @@
 @model Asociado
 
+
 @{
     ViewData["Title"] = "Asociado";
 }
+
+  <div class="row"><br/>
+         <div class="col-md-4">
+         <p><img src="~/images/mpenny.jpg "></p>
+    </div>
+      <div class="col-md-8">
+      <h2>Mary Penny</h2>
+      <h3>Asociado Principal</h3>
+      <hr/>
+      <p><label>Grado Academico:</label></p>
+      <p>BA University of Cambridge, UK MBChB School of Medicine, The University of Birmingham, UK MRCP Londres,UK</p>
+      <p><label>Email:</label> mpenny@jbch.org.pe</p>
+      <p><label>Áreas de Interés</label></p>
+      <ul>
+          <li>Diarrea infecciosa (etiología, diarrea persistente, tratamiento, manejo dietético y prevención).</li>
+      </ul>
+<div class="container">
+    <div class="px-3 py-3 pb-md-4 mx-auto text-center">
+    <div class="col-md-12 offset-md-2"> 
+  
+  </div>
+       </div>
+    </div>   
+        
+</div>
+    </div>
+    <h3><label>Formulario de Asociado</label></h3>
+=======
     <h3><label>Crear Asociado</label></h3>
+>>>>>>> 33f2b9b8763546f7569a406dc2f6454be14c0d8d
     <hr/>
 @Html.ValidationSummary()
     <div class="row">
@@ -29,12 +59,16 @@
                <input asp-for="Correo" class="form-control" />
                </div>
            </div>
-            <div class="col-md-4">
-               <div class="form-group"><label>Tipo Asociado:</label>
-               <input asp-for="TAsociado" class="form-control" />
-               </div>
-           </div>
-            <div class="col-md-8">
+           <div class="col-md-4">
+            <div class="form-group"><label>Tipo Asociado:</label>
+            <select asp-for="TAsociado" class="form-control" />
+             <option value="Principal">Asociado Principal</option>
+             <option value="Adjunto">Asociado Adjunto</option>
+             <option value="Invitado">Asociado Invitado</option>
+             </select>
+           </div>    
+        </div>
+           <div class="col-md-8">
            <div class="form-group"><label for="descripcion">Grado Academico:</label>
            <input asp-for="GAcademico" class="form-control" />
             </div>

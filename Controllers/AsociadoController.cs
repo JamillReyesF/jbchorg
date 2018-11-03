@@ -48,15 +48,13 @@ namespace jbchorg.Controllers
              if(!String.IsNullOrEmpty(fNom))
              {
                  asociados = asociados.Where(s => s.Nombre.Contains(fNom)); 
-             }   
-             return View(await asociados.ToListAsync());
-        }   
-  
-        
-    }     
-}
-    /* 
-      
 
-    */
+             return View(await asociados.ToListAsync());
+                }   
+        }
+        
+       
+    }
+}
+
     
