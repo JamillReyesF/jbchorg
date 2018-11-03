@@ -8,8 +8,8 @@ using jbchorg.Models;
 namespace jbchorg.Migrations
 {
     [DbContext(typeof(JbchorgDBContext))]
-    [Migration("20181027050037_inicialtwo")]
-    partial class inicialtwo
+    [Migration("20181102051413_star")]
+    partial class star
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -35,13 +35,14 @@ namespace jbchorg.Migrations
                     b.Property<string>("GAcademico");
 
                     b.Property<string>("Nombre")
-                        .IsRequired();
+                        .IsRequired()
+                        .HasMaxLength(40);
 
-                    b.Property<string>("TipoAsociado");
+                    b.Property<string>("TAsociado");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Asociados");
+                    b.ToTable("Asociado");
                 });
 
             modelBuilder.Entity("jbchorg.Models.Mensaje", b =>
@@ -67,7 +68,21 @@ namespace jbchorg.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Mensajes");
+                    b.ToTable("Mensaje");
+                });
+
+            modelBuilder.Entity("jbchorg.Models.Student", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(40);
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Student");
                 });
 #pragma warning restore 612, 618
         }

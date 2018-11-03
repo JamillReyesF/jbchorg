@@ -5,7 +5,7 @@ namespace jbchorg.Models
     {
         public int Id {get; set;}
         [Required(ErrorMessage = "Ingrese su Nombre")]
-        [StringLength(40)]
+        [StringLength(20, MinimumLength = 2)]
         public string Nombre { get; set; }
         public string APaterno { get; set; }
         public string AMaterno { get; set; }
