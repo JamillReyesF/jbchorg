@@ -4,6 +4,7 @@
 @{
     ViewData["Title"] = "Asociado";
 }
+<<<<<<< HEAD
 
   <div class="row"><br/>
          <div class="col-md-4">
@@ -31,6 +32,9 @@
 </div>
     </div>
     <h3><label>Formulario de Asociado</label></h3>
+=======
+    <h3><label>Crear Asociado</label></h3>
+>>>>>>> 33f2b9b8763546f7569a406dc2f6454be14c0d8d
     <hr/>
 @Html.ValidationSummary()
     <div class="row">
@@ -72,8 +76,11 @@
               <div class="form-group"><label for="descripcion">Área de Interés</label>
            <input asp-for="Area" class="form-control" />
             </div>
-            <div class="form-group">
+           <div class="form-group">
                <button type="submit" class="btn btn-primary">Registar Asociado</button>
+                <div>
+                <a asp-action="Asociados">Detalle de la Lista</a>
+                </div>
             </div>
             </div>
       </form>

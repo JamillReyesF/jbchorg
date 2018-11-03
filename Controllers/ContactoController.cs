@@ -117,11 +117,20 @@ namespace jbchorg.Controllers
             return View();
         }
 
+<<<<<<< HEAD
         
 
 // en esta parte enviar los datos de la tabla mensaje que estan guardados en la bd
 // y que se refleje el listado y hacer una busqueda ya sea por nombre apellidos o correo
 
+=======
+// en esta parte enviar los datos de la tabla mensaje que estan guardados en la bd
+// y que se refleje el listado y hacer una busqueda ya sea por nombre apellidos o correo
+        public IActionResult ListadoContacto()
+        {
+            return View();
+        }
+>>>>>>> 33f2b9b8763546f7569a406dc2f6454be14c0d8d
 
        
     }

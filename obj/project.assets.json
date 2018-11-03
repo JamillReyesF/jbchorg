@@ -11580,11 +11580,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Jamill Reyes\\Desktop\\jbchorg\\jbchorg\\jbchorg.csproj",
+      "projectUniqueName": "C:\\Users\\Jamill Reyes\\Desktop\\jbchorg\\jbchorg\\jbchorg.csproj",
       "projectName": "jbchorg",
-      "projectPath": "c:\\Users\\Jamill Reyes\\Desktop\\jbchorg\\jbchorg\\jbchorg.csproj",
+      "projectPath": "C:\\Users\\Jamill Reyes\\Desktop\\jbchorg\\jbchorg\\jbchorg.csproj",
       "packagesPath": "C:\\Users\\Jamill Reyes\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Jamill Reyes\\Desktop\\jbchorg\\jbchorg\\obj\\",
+      "outputPath": "C:\\Users\\Jamill Reyes\\Desktop\\jbchorg\\jbchorg\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
