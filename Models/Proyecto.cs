@@ -11,5 +11,5 @@ namespace jbchorg.Models
         [Required(ErrorMessage = "Ingrese una descripción del proyecto")]
         [StringLength(1000, MinimumLength = 10)]
         public string Descripcion { get; set; }
-    }
+    }  
 }
