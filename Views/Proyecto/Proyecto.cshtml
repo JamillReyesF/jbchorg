@@ -1,0 +1,61 @@
+@{
+    ViewData["Title"] = "Proyecto";
+}
+<div class="row">
+    <div id="carouselProyecto" class="carousel slide" data-ride="carousel" data-interval="6000">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselProyecto" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselProyecto" data-slide-to="1"></li>
+            <li data-target="#carouselProyecto" data-slide-to="2"></li>
+            <li data-target="#carouselProyecto" data-slide-to="3"></li>
+            <li data-target="#carouselProyecto" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                    <img src="~/images/nutri1.jpg" alt="nutricion1" class="img-responsive" />
+                </div>
+                <div class="item">
+                    <img src="~/images/nutri2.jpg" alt="nutrición2" class="img-responsive" />         
+                </div>
+                <div class="item">
+                    <img src="~/images/nutri3.jpg" alt="nutrición2" class="img-responsive" />         
+                </div>
+                <div class="item">
+                    <img src="~/images/nutri4.jpg" alt="nutrición2" class="img-responsive" />         
+                </div>
+                <div class="item">
+                    <img src="~/images/nutri5.jpg" alt="nutrición2" class="img-responsive" />         
+                </div>
+            </div>
+    </div>  
+</div>
+
+<h3><label>Agregar Proyecto</label></h3>
+<hr/>
+
+@Html.ValidationSummary()
+    <div class="row">
+        <div class="col-md-10">
+            <form asp-action="Proyecto" >
+            <div class="col-md-4">
+                <div class="form-group"><label>Nombre:</label>
+                    <input asp-for="Nombre" class="form-control" />
+                </div>
+                <div class="form-group"><label>Duración:</label>
+                    <input asp-for="Duracion" class="form-control" />
+                </div>
+           </div>
+           <div class="col-md-8">
+               <div class="form-group"><label for="descripcion">Descripción:</label>
+                    <input asp-for="Descripcion" class="form-control" />
+               </div>
+               <div class="form-group">
+                   <button type="submit" class="btn btn-primary">Registar Proyecto</button>
+                   <div>
+                       <a asp-action="Proyectos">Detalle de la Lista</a>
+                   </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>

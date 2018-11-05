@@ -11574,23 +11574,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/jamillreyes/.nuget/packages/": {},
+    "/Users/CarlosZ/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jamillreyes/Downloads/jbchorg/jbchorg/jbchorg.csproj",
+      "projectUniqueName": "/Users/CarlosZ/Documents/Proyectos/jbchorg/jbchorg.csproj",
       "projectName": "jbchorg",
-      "projectPath": "/Users/jamillreyes/Downloads/jbchorg/jbchorg/jbchorg.csproj",
-      "packagesPath": "/Users/jamillreyes/.nuget/packages/",
-      "outputPath": "/Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/",
+      "projectPath": "/Users/CarlosZ/Documents/Proyectos/jbchorg/jbchorg.csproj",
+      "packagesPath": "/Users/CarlosZ/.nuget/packages/",
+      "outputPath": "/Users/CarlosZ/Documents/Proyectos/jbchorg/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/jamillreyes/.nuget/NuGet/NuGet.Config"
+        "/Users/CarlosZ/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
