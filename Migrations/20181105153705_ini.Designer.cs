@@ -8,8 +8,8 @@ using jbchorg.Models;
 namespace jbchorg.Migrations
 {
     [DbContext(typeof(JbchorgDBContext))]
-    [Migration("20181103181542_fia")]
-    partial class fia
+    [Migration("20181105153705_ini")]
+    partial class ini
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -33,6 +33,8 @@ namespace jbchorg.Migrations
                         .IsRequired();
 
                     b.Property<string>("GAcademico");
+
+                    b.Property<string>("Genero");
 
                     b.Property<string>("Nombre")
                         .IsRequired()

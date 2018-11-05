@@ -117,3 +117,5 @@ C:/Users/Moli/Desktop/jbchorg/obj/Debug/netcoreapp2.1/jbchorg.pdb
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/bin/Debug/netcoreapp2.1/jbchorg.Views.pdb
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/jbchorg.Views.pdb
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/jbchorg.csproj.CopyComplete
+/Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Contacto/Contactos.g.cshtml.cs
+/Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Proyecto/Proyecto.g.cshtml.cs

@@ -50,9 +50,9 @@ namespace jbchorg.Controllers
              {
                  asociados = asociados.Where(s => s.Nombre.Contains(fNom)); 
              }
-             return View(await asociados.ToListAsync());
-               
+             return View(await asociados.ToListAsync());      
         }
+
         
        
     }

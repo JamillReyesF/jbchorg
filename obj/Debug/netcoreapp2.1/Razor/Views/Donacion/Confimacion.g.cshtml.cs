@@ -54,7 +54,7 @@ using jbchorg.Models;
             WriteLiteral("<h1>Gracias por donar a JBCH.</h1>\n<p>");
             EndContext();
             BeginContext(38, 29, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "227a13b5cce04ad18f02525c8c42a30f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b8d9765005a3410b87e1a6a7df58c9d9", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

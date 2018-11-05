@@ -9,6 +9,7 @@ namespace jbchorg.Models
         public string Nombre { get; set; }
         public string APaterno { get; set; }
         public string AMaterno { get; set; }
+        public string Genero { get; set; }
         [EmailAddress]
         [Required(ErrorMessage = "Ingrese su Email")]
         public string Correo { get; set; }

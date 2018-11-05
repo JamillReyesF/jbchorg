@@ -32,6 +32,8 @@ namespace jbchorg.Migrations
 
                     b.Property<string>("GAcademico");
 
+                    b.Property<string>("Genero");
+
                     b.Property<string>("Nombre")
                         .IsRequired()
                         .HasMaxLength(20);
