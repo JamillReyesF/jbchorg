@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "ProjectFilePath": "/Users/jamillreyes/Downloads/jbchorg/jbchorg/jbchorg.csproj",
+=======
+  "ProjectFilePath": "c:\\Users\\Moli\\Desktop\\jbchorg\\jbchorg.csproj",
+>>>>>>> 8bbe2fecdd431298d7a918e556430b729fa5f0b8
   "TargetFramework": "netcoreapp2.1",
   "TagHelpers": [],
   "Configuration": {
