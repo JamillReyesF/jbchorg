@@ -126,3 +126,4 @@ C:\Users\Moli\Desktop\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.Views.pdb
 C:\Users\Moli\Desktop\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.dll
 C:\Users\Moli\Desktop\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.pdb
 C:\Users\Moli\Desktop\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.csproj.CopyComplete
+C:\Users\Moli\Desktop\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Contacto\Contactos.g.cshtml.cs
