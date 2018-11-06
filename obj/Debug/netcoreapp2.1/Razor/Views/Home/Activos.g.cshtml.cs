@@ -60,7 +60,7 @@ using jbchorg.Models;
             WriteLiteral("<h3>Asociados Activos</h3>\n<div class=\"row\">\n  <div class=\"col-lg-5\">\n      <p>");
             EndContext();
             BeginContext(129, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "4d3323314dd74565848c62413ebf20ad", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "0eab71e654a34c81b895ebf50d768165", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
