@@ -118,8 +118,14 @@ namespace jbchorg.Controllers
         }
 
 
-      public IActionResult Contactos()
+     public async Task<IActionResult> Contactos (string fNom)
         {
+           
+
+              var contactos = from m in context.Mensaje
+             select m;
+             if(!String.IsNullOrEmpty(fNom))
+             
             return View();
         }
 
