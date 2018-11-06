@@ -117,7 +117,8 @@ namespace jbchorg.Controllers
             return View();
         }
 
-      public IActionResult ListadoContacto()
+
+      public IActionResult Contactos()
         {
             return View();
         }

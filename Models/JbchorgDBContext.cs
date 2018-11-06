@@ -11,6 +11,7 @@ namespace jbchorg.Models
 	
         public DbSet<Mensaje> Mensaje { get; set; }
 		public DbSet<Asociado> Asociado { get; set; }
+		
 		public DbSet<Donacion> Donacion { get; set; }
 	}
 }

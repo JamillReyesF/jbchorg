@@ -39,6 +39,7 @@ namespace jbchorg.Controllers
         //Direccion de correo electronico que queremos que reciba una copia del mensaje
         //mmsg.Bcc.Add("destinatariocopia@servidordominio.com"); //Opcional
 
+
         //Cuerpo del Mensaje
         mmsg.Body = "Datos Personales :\n\tNombre : "+d.Nombre+"\n\tApellido Paterno: "+d.APaterno+
                     "\n\tApellido Materno : "+d.AMaterno+"\n\tCorreo : "+d.Correo+
