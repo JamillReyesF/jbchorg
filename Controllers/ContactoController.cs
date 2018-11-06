@@ -117,7 +117,7 @@ namespace jbchorg.Controllers
             return View();
         }
 
-
+//aumentar en la base de datos para mi listado y hacer la busqueda de contactos
        public async Task<IActionResult> Contactos (string fNom)
         {
              var contactos = from m in context.Mensaje
