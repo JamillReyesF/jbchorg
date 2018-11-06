@@ -118,16 +118,22 @@ namespace jbchorg.Controllers
         }
 
 
-     public async Task<IActionResult> Contactos (string fNom)
+       public async Task<IActionResult> Contactos (string fNom)
         {
-           
-
-              var contactos = from m in context.Mensaje
+             var contactos = from m in context.Mensaje
              select m;
              if(!String.IsNullOrEmpty(fNom))
-             
-            return View();
+             {
+                 contactos = contactos.Where(s => s.Nombre.Contains(fNom)); 
+             }
+             return View(await contactos.ToListAsync());      
         }
+
+        
+       
+    }
+}
+
 
 
        
