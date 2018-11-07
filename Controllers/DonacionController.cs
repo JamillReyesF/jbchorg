@@ -11,10 +11,10 @@ namespace jbchorg.Controllers
 {
     public class DonacionController : Controller
     {
-        private readonly JbchorgDBContext context;
+        private readonly JbchorgDBContext _context;
 
         public DonacionController(JbchorgDBContext c){
-            context = c;
+            this._context = c;
         }
 
         public IActionResult Donacion()
@@ -87,10 +87,10 @@ namespace jbchorg.Controllers
         }   
           
 
-                context.Add(d);    
+                _context.Add(d);    
             
            
-                context.SaveChanges();
+                _context.SaveChanges();
 
  
                 return RedirectToAction("Confirmacion");
