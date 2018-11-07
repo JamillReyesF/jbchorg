@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using jbchorg.Models;
 
 namespace jbchorg.Migrations
 {
     [DbContext(typeof(JbchorgDBContext))]
-    partial class JbchorgDBContextModelSnapshot : ModelSnapshot
+    [Migration("20181107234237_servicios1")]
+    partial class servicios1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

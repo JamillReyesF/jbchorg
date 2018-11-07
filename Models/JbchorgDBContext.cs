@@ -14,5 +14,6 @@ namespace jbchorg.Models
 		public DbSet<Proyecto> Proyecto { get; set; }
 		
 		public DbSet<Donacion> Donacion { get; set; }
+		public DbSet<Servicio> Servicio { get; set; }
 	}
 }
