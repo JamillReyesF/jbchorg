@@ -64,7 +64,7 @@ using jbchorg.Models;
             WriteLiteral("<div><br/>\n    ");
             EndContext();
             BeginContext(105, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67025b0166f14862915a0b6428304193", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "60e74a9f97764e21a6ff106b834b93f8", async() => {
                 BeginContext(130, 5, true);
                 WriteLiteral("Crear");
                 EndContext();
@@ -86,7 +86,7 @@ using jbchorg.Models;
             WriteLiteral("</div><br/>\n<div class=\"row\">\n");
             EndContext();
             BeginContext(169, 287, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3f2ce6bbac9c44bd9c1949253ef07f78", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c84d5ba14cef48e6b4fc98e5c5578443", async() => {
                 BeginContext(224, 225, true);
                 WriteLiteral("\n    <div class=\"col-lg-7\">\n    <input value=\"\" type=\"text\" name=\"fNom\"  class=\"form-search form-control\" placeholder=\"Búsqueda por Nombre\"><br />\n    <button type=\"submit\" class=\"btn btn-primary\">Filtrar</button>\n    </div>\n");
                 EndContext();
@@ -228,7 +228,7 @@ using jbchorg.Models;
             WriteLiteral("\n                 </td>\n                 <td>\n                     ");
             EndContext();
             BeginContext(1743, 61, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "85e3681a646040c3881f30dd87c7f4c8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "df6b692845a14ad48ac472c89e2f4732", async() => {
                 BeginContext(1793, 7, true);
                 WriteLiteral("Details");
                 EndContext();

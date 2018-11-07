@@ -35,7 +35,7 @@ namespace jbchorg.Controllers
             }
              return View(pro);
         }
-        public IActionResult AConfirmacion()
+        public IActionResult PConfirmacion()
         {
             ViewData["Message"] = "Your project page.";
         

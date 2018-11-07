@@ -63,7 +63,7 @@ using jbchorg.Models;
             WriteLiteral("\n<div class=\"row\">\n");
             EndContext();
             BeginContext(105, 365, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "81b3656d10dc4e3f9a90f0cfdff6687e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bc920dbcb6c742ea95c6dcff3621d2ae", async() => {
                 BeginContext(160, 303, true);
                 WriteLiteral(@"
     <div class=""col-lg-7"">
@@ -161,7 +161,7 @@ using jbchorg.Models;
             WriteLiteral("\n                 </td>\n                 <td>\n                     ");
             EndContext();
             BeginContext(1238, 61, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "91f2766d9850431cb02e112bf8c90437", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fee41882697e405bb2f0ba8e34852a93", async() => {
                 BeginContext(1288, 7, true);
                 WriteLiteral("Details");
                 EndContext();
