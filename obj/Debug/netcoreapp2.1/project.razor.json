@@ -1,6 +1,14 @@
 {
-  "ProjectFilePath": "c:\\Users\\user\\Desktop\\jbchorg\\jbchorg.csproj",
+  "ProjectFilePath": "c:\\Users\\Moli\\Desktop\\jbchorg\\jbchorg.csproj",
   "TargetFramework": "netcoreapp2.1",
   "TagHelpers": [],
-  "Configuration": null
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  }
 }

@@ -126,16 +126,11 @@ namespace jbchorg.Controllers
              {
                  contactos = contactos.Where(s => s.Nombre.Contains(fNom)); 
              }
-             return View(await contactos.ToListAsync());      
+            // return View(await contactos.ToListAsync());
+                  return View();
         }
 
         
-       
-    }
-}
-
-
-
        
     }
 }
