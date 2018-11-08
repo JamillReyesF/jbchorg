@@ -130,6 +130,28 @@ namespace jbchorg.Controllers
                   return View();
         }
 
+ protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+         modelBuilder.Entity<Mensaje>().HasData(
+                new Mensaje {
+                    Id = 1,
+                    Nombre = "maria",
+                    Correo = "aaa@gmail.com"
+                },
+                    new Mensaje {
+                    Id = 2,
+                    Nombre = "katy",
+                    Correo = "kkkk@gmail.com"
+                },
+                new Mensaje {
+                    Id = 3,
+                    Nombre = "rosa",
+                    Correo = "rrrr@gmail.com"
+                }
+            );
+        }
+
         
        
     }
