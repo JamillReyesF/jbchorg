@@ -26,23 +26,21 @@
            </div> 
            <div class="col-md-8">
                <div class="form-group"><label>Email:</label>
-               <input asp-for="Correo" class="form-control" />
+               <input asp-for="Email" class="form-control" />
                </div>
-           </div>
+           </div> 
+
            <div class="col-md-4">
-            <div class="form-group"><label>Tipo Asociado:</label>
-            <select asp-for="TAsociado" class="form-control" />
-             <option value="Principal">Asociado Principal</option>
-             <option value="Adjunto">Asociado Adjunto</option>
-             <option value="Invitado">Asociado Invitado</option>
-             </select>
+           <div class="form-group">
+               <label asp-for="TAsociado"></label>
+               <select asp-for="TAsociadoId" asp-items="ViewBag.TAsociado" class="form-control"></select>
+           </div>
            </div>    
         </div>
            <div class="col-md-8">
          <div><label>Genero: </label><br />
              Masculino: <input checked="checked" 
                 id="Genero" name="Genero" type="radio" value="Masculino" />
-
              Femenino: <input id="Genero" name="Genero" type="radio" value="Femenino" />
          </div><br />
            <div class="form-group"><label for="descripcion">Grado Academico:</label>

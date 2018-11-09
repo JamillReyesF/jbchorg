@@ -118,17 +118,7 @@ namespace jbchorg.Controllers
         }
 
 //aumentar en la base de datos para mi listado y hacer la busqueda de contactos
-       public async Task<IActionResult> Contactos (string fNom)
-        {
-             var contactos = from m in context.Mensaje
-             select m;
-             if(!String.IsNullOrEmpty(fNom))
-             {
-                 contactos = contactos.Where(s => s.Nombre.Contains(fNom)); 
-             }
-            // return View(await contactos.ToListAsync());
-                  return View();
-        }
+
        
 
 
