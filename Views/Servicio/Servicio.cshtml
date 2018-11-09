@@ -1,0 +1,45 @@
+@model Servicio
+@{
+    ViewData["Title"] = "Servicio";
+}
+    <h3><label>Asociado</label></h3>
+    <hr/>
+ 
+@Html.ValidationSummary()
+    <div class="row">
+          <div class="col-md-10">
+            <form asp-action="Servicio" >
+           <div class="col-md-4">
+               <div class="form-group"><label>Nombre Servicio:</label>
+               <input asp-for="NombreServ" class="form-control" />
+               </div>
+           </div>
+
+           <div class="col-md-4">
+                <div class="form-group"><label>Tipo de Servicio:</label>
+                <select asp-for="tipo" class="form-control" />
+                <option value="rea">Rehabilitación</option>
+                <option value="inv">Investigación</option>
+                <option value="doc">Docencia</option>
+                </select>
+           </div> 
+
+           <div class="col-md-4">
+               <div class="form-group"><label>Descripcion del Servcio</label><small>(Opcional)</small>
+               <input asp-for="descripcion" class="form-control" />
+               </div>
+           </div> 
+           
+              
+        </div>
+         
+           <div class="form-group">
+               <button type="submit" class="btn btn-primary">Registrar</button>
+                <div>
+                <a asp-action="Servicio">Detalle de la Lista</a>
+                </div>
+            </div>
+            </div>
+      </form>
+      </div>
+      </div>

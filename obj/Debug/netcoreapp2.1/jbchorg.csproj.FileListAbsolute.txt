@@ -221,3 +221,6 @@ C:\Users\Usuario\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.Views.p
 C:\Users\Usuario\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.dll
 C:\Users\Usuario\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.pdb
 C:\Users\Usuario\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\jbchorg.csproj.CopyComplete
+C:\Users\Usuario\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Servicio\Servicio.g.cshtml.cs
+C:\Users\Usuario\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Servicio\Servicios.g.cshtml.cs
+C:\Users\Usuario\Desktop\jbchorg\jbchorg\obj\Debug\netcoreapp2.1\Razor\Views\Servicio\SConfirmacion.g.cshtml.cs

@@ -15,6 +15,7 @@ namespace jbchorg.Controllers
     public class ServicioController : Controller
     {
         private readonly JbchorgDBContext context;
+
         public ServicioController(JbchorgDBContext c){
             context = c;
         }
@@ -33,11 +34,11 @@ namespace jbchorg.Controllers
             if(ModelState.IsValid){
                 context.Add(serv);    
                 context.SaveChanges();
-               return RedirectToAction("AConfirmacion");
+               return RedirectToAction("SConfirmacion");
             }
              return View(serv);
         }
-        public IActionResult AConfirmacion()
+        public IActionResult SConfirmacion()
         {
             ViewData["Message"] = "Your contact page.";
         
@@ -45,13 +46,13 @@ namespace jbchorg.Controllers
         }
        public async Task<IActionResult> Servicio (string fNom)
         {
-             var servicio = from m in context.Asociado
+             var servi = from m in context.Servicio
              select m;
              if(!String.IsNullOrEmpty(fNom))
              {
-                 servicio = servicio.Where(s => s.Nombre.Contains(fNom)); 
+                 servi = servi.Where(s => s.NombreServ.Contains(fNom)); 
              }
-             return View(await servicio.ToListAsync());      
+             return View(await servi.ToListAsync());      
         }
 
 

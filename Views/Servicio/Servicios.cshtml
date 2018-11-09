@@ -1,0 +1,46 @@
+@model IEnumerable<jbchorg.Models.Servicio> 
+@{
+    ViewData["Title"] = "Servicios";
+}
+<div><br/>
+    <a asp-action="Servicio">Crear</a></div><br/>
+<div class="row">
+<form asp-controller="Servicio" asp-action="Servicios">
+    <div class="col-lg-7">
+    <input value="" type="text" name="fNom"  class="form-search form-control" placeholder="Búsqueda por Nombre"><br />
+    <button type="submit" class="btn btn-primary">Filtrar</button>
+    </div>
+</form>
+</div><br/>
+<div class="row">
+<table class="table table-bordered table-responsive table-hover">
+    <thead>
+        <tr>
+            <th>N°</th>
+            <th>Nombre del Servicio</th>
+            <th>Tipo de Servicio</th>
+            <th>Descripcion</th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                 <td>@Html.DisplayFor(modelItem => item.Id)
+                 </td>
+                 <td>@Html.DisplayFor(modelItem => item.NombreServ)
+                     @Html.DisplayFor(modelItem => item.tipo)
+                     @Html.DisplayFor(modelItem => item.descripcion)
+                 </td>
+                 
+                 <td>
+                     <a asp-action="Servicios" asp-route-id="@item.Id">Details</a>
+                 </td>
+            </tr>
+           
+        }
+    </tbody>
+</table>
+</div>
