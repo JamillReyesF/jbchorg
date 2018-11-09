@@ -55,11 +55,8 @@ C:/Users/Jamill Reyes/Desktop/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/View
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Asociado/Asociados.g.cshtml.cs
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Contacto/Confirmacion.g.cshtml.cs
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Contacto/Contacto.g.cshtml.cs
-/Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Donacion/Confimacion.g.cshtml.cs
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Donacion/Donacion.g.cshtml.cs
-/Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Home/Activos.g.cshtml.cs
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.g.cshtml.cs
-/Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Home/Informacion.g.cshtml.cs
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Home/Privacy.g.cshtml.cs
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Home/Servicio.g.cshtml.cs
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.g.cshtml.cs
@@ -227,3 +224,4 @@ C:/Users/Usuario/Desktop/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Ser
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Servicio/SConfirmacion.g.cshtml.cs
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Servicio/Servicio.g.cshtml.cs
 /Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Servicio/Servicios.g.cshtml.cs
+/Users/jamillreyes/Downloads/jbchorg/jbchorg/obj/Debug/netcoreapp2.1/Razor/Views/Donacion/Confirmacion.g.cshtml.cs
