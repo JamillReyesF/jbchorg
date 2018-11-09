@@ -44,10 +44,10 @@ namespace jbchorg.Controllers
         
             return View();
         }
-       public async Task<IActionResult> Servicio (string fNom)
+       public async Task<IActionResult> Servicios (string fNom)
         {
-             var servi = from m in context.Servicio
-             select m;
+             var servi = from sv in context.Servicio
+             select sv;
              if(!String.IsNullOrEmpty(fNom))
              {
                  servi = servi.Where(s => s.NombreServ.Contains(fNom)); 

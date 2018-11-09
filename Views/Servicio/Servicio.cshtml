@@ -9,23 +9,23 @@
     <div class="row">
           <div class="col-md-10">
             <form asp-action="Servicio" >
-           <div class="col-md-4">
-               <div class="form-group"><label>Nombre Servicio:</label>
-               <input asp-for="NombreServ" class="form-control" />
-               </div>
-           </div>
+                <div class="col-md-4">
+                     <div class="form-group"><label>Nombre Servicio:</label>
+                         <input asp-for="NombreServ" class="form-control" />
+                     </div>
+                </div>
 
            <div class="col-md-4">
-                <div class="form-group"><label>Tipo de Servicio:</label>
+                <div class="form-group"><label>Área del Servicio:</label>
                 <select asp-for="tipo" class="form-control" />
-                <option value="rea">Rehabilitación</option>
+                <option value="rea">Salud</option>
                 <option value="inv">Investigación</option>
                 <option value="doc">Docencia</option>
                 </select>
-           </div> 
-
-           <div class="col-md-4">
-               <div class="form-group"><label>Descripcion del Servcio</label><small>(Opcional)</small>
+                </div> 
+            </div>
+           <div class="col-md-10">
+               <div class="form-group"><label>Descripcion del Servcio</label>
                <input asp-for="descripcion" class="form-control" />
                </div>
            </div> 
