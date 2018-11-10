@@ -6,12 +6,15 @@ namespace jbchorg.Models
     {
         public int Id {get; set;}
         [Required(ErrorMessage = "Ingrese el Servicio")]
-        [StringLength(40, MinimumLength = 2)]
+        [StringLength(150, MinimumLength = 2)]
         public string NombreServ { get; set; }
 
-        [Required(ErrorMessage = "Ingrese el tipo de Servicio")]   
+        [Required(ErrorMessage = "Ingrese el tipo de Servicio")]
+        [StringLength(150, MinimumLength = 2)]   
          public string tipo {get; set;}
-        [Required(ErrorMessage = "Ingrese el tipo de Servicio")]   
+         
+        [Required(ErrorMessage = "Ingrese la descripcion")]   
+        [StringLength(150, MinimumLength = 2)]
          public string descripcion { get;set;}
     }
 }

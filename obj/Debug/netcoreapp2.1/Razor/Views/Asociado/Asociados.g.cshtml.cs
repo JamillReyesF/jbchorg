@@ -64,7 +64,7 @@ using jbchorg.Models;
             WriteLiteral("<div><br/>\r\n    ");
             EndContext();
             BeginContext(110, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48e2b912c20c437f80b5b3e555832d20", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8806ebbcecec4a689b4de237182eb0a8", async() => {
                 BeginContext(135, 5, true);
                 WriteLiteral("Crear");
                 EndContext();
@@ -86,7 +86,7 @@ using jbchorg.Models;
             WriteLiteral("</div><br/>\r\n<div class=\"row\">\r\n");
             EndContext();
             BeginContext(176, 202, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "08c9120be90544719b52f481d37fdea9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "30b5407b9170496d91dd22182a7b3113", async() => {
                 BeginContext(218, 59, true);
                 WriteLiteral("\r\n    <input type=\"text\" name=\"buscar\" class=\"form-control\"");
                 EndContext();
@@ -238,7 +238,7 @@ WriteAttributeValue("", 285, ViewBag.buscar, 285, 15, false);
             WriteLiteral("\r\n                 </td>\r\n                 <td>\r\n                     ");
             EndContext();
             BeginContext(1733, 60, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4e32fdedc5b2436f84cf3dd3dcfe0cf7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a8e9fd56a14e4d429a419656dfa44aa9", async() => {
                 BeginContext(1782, 7, true);
                 WriteLiteral("Details");
                 EndContext();
