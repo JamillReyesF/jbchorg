@@ -65,15 +65,9 @@ using jbchorg.Models;
             BeginContext(94, 19, true);
             WriteLiteral("\n<div class=\"row\">\n");
             EndContext();
-<<<<<<< HEAD
-            BeginContext(119, 327, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f39213ea16ce4fcabaeb56e16e72b312", async() => {
-                BeginContext(173, 266, true);
-=======
             BeginContext(113, 321, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "74f21c066bd2457c88394e89ed8ddc8d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5737d66a01f248b58c37fcd6c28cf959", async() => {
                 BeginContext(167, 260, true);
->>>>>>> 33d78a773e58a2a703ef4c3daf5aa00591fc858b
                 WriteLiteral(@"
     <div class=""col-lg-7"">
     <h3>Lista de Contactos</h3>
@@ -177,15 +171,9 @@ using jbchorg.Models;
             BeginContext(1268, 111, true);
             WriteLiteral("\n                 </td>\n                          \n                \n                 <td>\n                     ");
             EndContext();
-<<<<<<< HEAD
-            BeginContext(1422, 61, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b23b595f64ae4fff974ce71b35b538a0", async() => {
-                BeginContext(1471, 8, true);
-=======
             BeginContext(1379, 61, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2eced1e83c9c40fda7d3b025cf56f383", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "75cd2d0ea5f640f484cef94eaca947c6", async() => {
                 BeginContext(1428, 8, true);
->>>>>>> 33d78a773e58a2a703ef4c3daf5aa00591fc858b
                 WriteLiteral("Contacto");
                 EndContext();
             }
@@ -227,13 +215,8 @@ using jbchorg.Models;
             BeginContext(1504, 33, true);
             WriteLiteral("    </tbody>\n</table>\n</div>\n\n<p>");
             EndContext();
-<<<<<<< HEAD
-            BeginContext(1589, 32, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b25fd06221054194bc4603b04a781811", async() => {
-=======
             BeginContext(1537, 32, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "701f5b0ca7ab43d8bf79a34ca20e208a", async() => {
->>>>>>> 33d78a773e58a2a703ef4c3daf5aa00591fc858b
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "26b0381c6af94045a7de9adc1c393f44", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

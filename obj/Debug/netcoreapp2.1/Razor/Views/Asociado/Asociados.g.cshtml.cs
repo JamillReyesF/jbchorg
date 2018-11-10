@@ -63,15 +63,9 @@ using jbchorg.Models;
             BeginContext(90, 15, true);
             WriteLiteral("<div><br/>\n    ");
             EndContext();
-<<<<<<< HEAD
-            BeginContext(110, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8806ebbcecec4a689b4de237182eb0a8", async() => {
-                BeginContext(135, 5, true);
-=======
             BeginContext(105, 34, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c48b34f306c44b06a6ad89ff4ab17dec", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c019e6cdc7aa48f395585cc8ed94d9e1", async() => {
                 BeginContext(130, 5, true);
->>>>>>> 33d78a773e58a2a703ef4c3daf5aa00591fc858b
                 WriteLiteral("Crear");
                 EndContext();
             }
@@ -91,17 +85,10 @@ using jbchorg.Models;
             BeginContext(139, 30, true);
             WriteLiteral("</div><br/>\n<div class=\"row\">\n");
             EndContext();
-<<<<<<< HEAD
-            BeginContext(176, 202, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "30b5407b9170496d91dd22182a7b3113", async() => {
-                BeginContext(218, 59, true);
-                WriteLiteral("\r\n    <input type=\"text\" name=\"buscar\" class=\"form-control\"");
-=======
             BeginContext(169, 199, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c893c4c16be472481e5e7d7820818ef", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abcd8d87580944a7a232e08aa6f7960f", async() => {
                 BeginContext(211, 58, true);
                 WriteLiteral("\n    <input type=\"text\" name=\"buscar\" class=\"form-control\"");
->>>>>>> 33d78a773e58a2a703ef4c3daf5aa00591fc858b
                 EndContext();
                 BeginWriteAttribute("value", " value=\"", 269, "\"", 292, 1);
 #line 9 "/Users/jamillreyes/Downloads/jbchorg/jbchorg/Views/Asociado/Asociados.cshtml"
@@ -250,15 +237,9 @@ WriteAttributeValue("", 277, ViewBag.buscar, 277, 15, false);
             BeginContext(1617, 67, true);
             WriteLiteral("\n                 </td>\n                 <td>\n                     ");
             EndContext();
-<<<<<<< HEAD
-            BeginContext(1733, 60, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a8e9fd56a14e4d429a419656dfa44aa9", async() => {
-                BeginContext(1782, 7, true);
-=======
             BeginContext(1684, 60, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "421211ab2d9045ceaaced215d85bc5f6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "040285d2cedc4a6ebf91acb2003fae8c", async() => {
                 BeginContext(1733, 7, true);
->>>>>>> 33d78a773e58a2a703ef4c3daf5aa00591fc858b
                 WriteLiteral("Details");
                 EndContext();
             }

@@ -53,13 +53,8 @@ using jbchorg.Models;
             BeginContext(0, 38, true);
             WriteLiteral("<h1>Gracias Por contactarnos.</h1>\n<p>");
             EndContext();
-<<<<<<< HEAD
-            BeginContext(39, 32, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c8c909dc954742028264401664a449dc", async() => {
-=======
             BeginContext(38, 32, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "49a89ed90e5f44528d5f6ab01d007181", async() => {
->>>>>>> 33d78a773e58a2a703ef4c3daf5aa00591fc858b
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9784952a2b21425bae7d9f397f004220", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

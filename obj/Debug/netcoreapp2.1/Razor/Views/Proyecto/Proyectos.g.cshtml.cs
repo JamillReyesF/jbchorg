@@ -61,15 +61,9 @@ using jbchorg.Models;
             BeginContext(86, 19, true);
             WriteLiteral("\n<div class=\"row\">\n");
             EndContext();
-<<<<<<< HEAD
-            BeginContext(111, 386, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "760380f6a187469582dfc8af98dd4c61", async() => {
-                BeginContext(166, 324, true);
-=======
             BeginContext(105, 376, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4795957c54a74bb3810b23aff6de99a1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4f721aac5476480dabbe6b2065da77ee", async() => {
                 BeginContext(160, 314, true);
->>>>>>> 33d78a773e58a2a703ef4c3daf5aa00591fc858b
                 WriteLiteral(@"
     <div class=""col-lg-7"">
     <h3>Listado de Proyectos</h3>

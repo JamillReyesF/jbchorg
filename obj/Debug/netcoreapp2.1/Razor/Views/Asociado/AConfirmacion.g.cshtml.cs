@@ -63,7 +63,7 @@ using jbchorg.Models;
             WriteLiteral("<div class=\"row\">\n    <div class=\"px-3 py-3 pb-md-4 mx-auto text-center\">\n        <h1>¡Enviado!</h1>\n        <h2>Gracias por ponerse en contacto con nosotros. </h2>\n        <h3>Su mensaje ha sido enviado con éxito</h3><br/>\n        ");
             EndContext();
             BeginContext(277, 35, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c181521876747c780baf12df0f381a5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9d2bd7455c7d49d8813ccefd125c6ee7", async() => {
                 BeginContext(302, 6, true);
                 WriteLiteral("Volver");
                 EndContext();
@@ -84,13 +84,8 @@ using jbchorg.Models;
             BeginContext(312, 12, true);
             WriteLiteral("\n        <p>");
             EndContext();
-<<<<<<< HEAD
-            BeginContext(46, 29, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "6e6c2cf90db24da7adc0527558143618", async() => {
-=======
             BeginContext(324, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "874c25e2c1a7426bac62247f4dbb2404", async() => {
->>>>>>> 33d78a773e58a2a703ef4c3daf5aa00591fc858b
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "4f21c0d64a4743e485986f2bf0db4351", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
