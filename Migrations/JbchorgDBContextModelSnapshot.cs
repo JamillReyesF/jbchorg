@@ -28,7 +28,7 @@ namespace jbchorg.Migrations
 
                     b.Property<string>("Area");
 
-                    b.Property<string>("Correo")
+                    b.Property<string>("Email")
                         .IsRequired();
 
                     b.Property<string>("GAcademico");
@@ -39,11 +39,13 @@ namespace jbchorg.Migrations
                         .IsRequired()
                         .HasMaxLength(20);
 
-                    b.Property<string>("TAsociado");
+                    b.Property<int?>("TAsociadoId");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Asociado");
+                    b.HasIndex("TAsociadoId");
+
+                    b.ToTable("Asociados");
                 });
 
             modelBuilder.Entity("jbchorg.Models.Donacion", b =>
@@ -136,7 +138,7 @@ namespace jbchorg.Migrations
 
                     b.Property<string>("NombreServ")
                         .IsRequired()
-                        .HasMaxLength(20);
+                        .HasMaxLength(40);
 
                     b.Property<string>("descripcion");
 
@@ -146,6 +148,31 @@ namespace jbchorg.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Servicio");
+                });
+
+            modelBuilder.Entity("jbchorg.Models.TAsociado", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Nombre");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TAsociados");
+
+                    b.HasData(
+                        new { Id = 1, Nombre = "Principal" },
+                        new { Id = 2, Nombre = "Adjunto" },
+                        new { Id = 3, Nombre = "Invitado" }
+                    );
+                });
+
+            modelBuilder.Entity("jbchorg.Models.Asociado", b =>
+                {
+                    b.HasOne("jbchorg.Models.TAsociado", "TAsociado")
+                        .WithMany("Asociados")
+                        .HasForeignKey("TAsociadoId");
                 });
 #pragma warning restore 612, 618
         }

@@ -7,11 +7,8 @@
 <form asp-controller="Mensaje" asp-action="Contactos">
     <div class="col-lg-7">
     <h3>Lista de Contactos</h3>
-    <input value="" type="text" name="fNom"  class="form-search form-control" placeholder="Búsqueda por Nombre">
-    </div>
-    <div class="col-lg-5">
-        
-        <button type="submit" class="btn btn-primary">Buscar</button>
+    <input value="" type="text" name="fNom"  class="form-search form-control" placeholder="Búsqueda por Nombre"><br />
+    <button type="submit" class="btn btn-primary">Buscar</button>
     </div>
     </form>
     </div><br/>
@@ -34,15 +31,17 @@
                  <td>@Html.DisplayFor(modelItem => item.Id)
                  </td>
                  <td>@Html.DisplayFor(modelItem => item.Nombre)
-                     @Html.DisplayFor(modelItem => item.APaterno)
-                     @Html.DisplayFor(modelItem => item.AMaterno)
+                     </td>
+                    <td>@Html.DisplayFor(modelItem => item.APaterno)
+                    </td> 
+                     <td>@Html.DisplayFor(modelItem => item.AMaterno)
                  </td>
                  <td>@Html.DisplayFor(modelItem => item.Correo)
                  </td>
                           
                 
                  <td>
-                     <a asp-action="Contactos" asp-route-id="@item.Id">Details</a>
+                     <a asp-action="Contacto" asp-route-id="@item.Id">Contacto</a>
                  </td>
             </tr>
            
@@ -51,5 +50,4 @@
 </table>
 </div>
 
-<p>Lista</p>
-<p><img src="~/images/logo-01"></p>
+<p><img src="~/images/logo-01.png"></p>

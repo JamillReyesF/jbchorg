@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using jbchorg.Models;
 using System.Net.Mail;
-
+using Microsoft.EntityFrameworkCore;
 
 namespace jbchorg.Controllers
 {
@@ -116,19 +116,18 @@ namespace jbchorg.Controllers
         {
             return View();
         }
-
-//aumentar en la base de datos para mi listado y hacer la busqueda de contactos
-       public async Task<IActionResult> Contactos (string fNom)
+        public async Task<IActionResult> Contactos (string fNom)
         {
-             var contactos = from m in context.Mensaje
-             select m;
+             var contact = from sv in context.Mensaje
+             select sv;
              if(!String.IsNullOrEmpty(fNom))
              {
-                 contactos = contactos.Where(s => s.Nombre.Contains(fNom)); 
+                 contact = contact.Where(s => s.Nombre.Contains(fNom)); 
              }
-            // return View(await contactos.ToListAsync());
-                  return View();
+             return View(await contact.ToListAsync());      
         }
+//aumentar en la base de datos para mi listado y hacer la busqueda de contactos
+
        
 
 

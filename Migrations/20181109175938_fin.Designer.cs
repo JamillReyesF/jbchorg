@@ -9,14 +9,14 @@ using jbchorg.Models;
 namespace jbchorg.Migrations
 {
     [DbContext(typeof(JbchorgDBContext))]
-    [Migration("20181107224542_inicial")]
-    partial class inicial
+    [Migration("20181109175938_fin")]
+    partial class fin
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.2-rtm-30932")
+                .HasAnnotation("ProductVersion", "2.1.4-rtm-31024")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("jbchorg.Models.Asociado", b =>
@@ -30,7 +30,7 @@ namespace jbchorg.Migrations
 
                     b.Property<string>("Area");
 
-                    b.Property<string>("Correo")
+                    b.Property<string>("Email")
                         .IsRequired();
 
                     b.Property<string>("GAcademico");
@@ -41,11 +41,13 @@ namespace jbchorg.Migrations
                         .IsRequired()
                         .HasMaxLength(20);
 
-                    b.Property<string>("TAsociado");
+                    b.Property<int?>("TAsociadoId");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Asociado");
+                    b.HasIndex("TAsociadoId");
+
+                    b.ToTable("Asociados");
                 });
 
             modelBuilder.Entity("jbchorg.Models.Donacion", b =>
@@ -129,6 +131,50 @@ namespace jbchorg.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Proyecto");
+                });
+
+            modelBuilder.Entity("jbchorg.Models.Servicio", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("NombreServ")
+                        .IsRequired()
+                        .HasMaxLength(40);
+
+                    b.Property<string>("descripcion");
+
+                    b.Property<string>("tipo")
+                        .IsRequired();
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Servicio");
+                });
+
+            modelBuilder.Entity("jbchorg.Models.TAsociado", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Nombre");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TAsociados");
+
+                    b.HasData(
+                        new { Id = 1, Nombre = "Principal" },
+                        new { Id = 2, Nombre = "Adjunto" },
+                        new { Id = 3, Nombre = "Invitado" }
+                    );
+                });
+
+            modelBuilder.Entity("jbchorg.Models.Asociado", b =>
+                {
+                    b.HasOne("jbchorg.Models.TAsociado", "TAsociado")
+                        .WithMany("Asociados")
+                        .HasForeignKey("TAsociadoId");
                 });
 #pragma warning restore 612, 618
         }
