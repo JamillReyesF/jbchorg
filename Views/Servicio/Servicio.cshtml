@@ -2,7 +2,32 @@
 @{
     ViewData["Title"] = "Servicio";
 }
+
+<div class="row">
+    <div id="carouselProyecto" class="carousel slide" data-ride="carousel" data-interval="6000">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselProyecto" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselProyecto" data-slide-to="1"></li>
+            <li data-target="#carouselProyecto" data-slide-to="2"></li>
+            
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                    <img src="~/images/servicio1.jpg" alt="servicio1" class="img-responsive" width="1900" />
+                </div>
+                <div class="item">
+                    <img src="~/images/servicio2.jpg" alt="servicio2" class="img-responsive" width="1900"  />         
+                </div>
+                <div class="item">
+                    <img src="~/images/servicio3.jpg" alt="servicio3" class="img-responsive" width="1900" />         
+                </div>
+                
+            </div>
+    </div>  
+</div>
+<hr />
     <h3><label>Registro de Servicios</label></h3>
+    <P> Por favor registrar los servicios necesarios para mejorar nuestra beneficiencia</P>
     <hr/>
  
 @Html.ValidationSummary()
@@ -10,22 +35,22 @@
           <div class="col-md-10">
             <form asp-action="Servicio" >
                 <div class="col-md-4">
-                     <div class="form-group"><label>Nombre Servicio:</label>
+                     <div class="form-group"><label>Nombre Servicio: (*)</label>
                          <input asp-for="NombreServ" class="form-control" />
                      </div>
                 </div>
 
            <div class="col-md-4">
-                <div class="form-group"><label>Área del Servicio:</label>
+                <div class="form-group"><label>Área del Servicio: (*)</label>
                 <select asp-for="tipo" class="form-control" />
-                <option value="rea">Salud</option>
-                <option value="inv">Investigación</option>
-                <option value="doc">Docencia</option>
+                <option value="salud">Salud</option>
+                <option value="investigación">Investigación</option>
+                <option value="Educación">Educación</option>
                 </select>
                 </div> 
             </div>
            <div class="col-md-10">
-               <div class="form-group"><label>Descripcion del Servcio</label>
+               <div class="form-group"><label>Descripcion del Servcio: (*)</label>
                <input asp-for="descripcion" class="form-control" />
                </div>
            </div> 
@@ -35,6 +60,12 @@
          
            <div class="form-group">
                <button type="submit" class="btn btn-primary">Registrar</button>
+               <br/>
+               <br/>
+               <br/>
+               <br/>
+              
+               
                 <div>
                 <a asp-action="Servicios">Detalle de la Lista</a>
                 </div>
@@ -43,3 +74,4 @@
       </form>
       </div>
       </div>    
+      <hr />

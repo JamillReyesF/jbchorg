@@ -63,7 +63,7 @@ using jbchorg.Models;
             WriteLiteral("<div class=\"row\">\n    <div class=\"px-3 py-3 pb-md-4 mx-auto text-center\">\n        <h1>¡Enviado!</h1>\n        <h2>Gracias por ponerse en contacto con nosotros. </h2>\n        <h3>Su mensaje ha sido enviado con éxito</h3><br/>\n        ");
             EndContext();
             BeginContext(277, 35, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3a66b165deef4f438ba6c076cfe61b1f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c181521876747c780baf12df0f381a5", async() => {
                 BeginContext(302, 6, true);
                 WriteLiteral("Volver");
                 EndContext();
@@ -85,7 +85,7 @@ using jbchorg.Models;
             WriteLiteral("\n        <p>");
             EndContext();
             BeginContext(324, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "df72651dd847489a9c9340366efa08fd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "874c25e2c1a7426bac62247f4dbb2404", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

@@ -50,7 +50,7 @@ namespace jbchorg.Controllers
              select sv;
              if(!String.IsNullOrEmpty(fNom))
              {
-                 servi = servi.Where(s => s.NombreServ.Contains(fNom)); 
+                 servi = servi.Where(s => s.NombreServ.Contains(fNom) || s.tipo.Contains(fNom)); 
              }
              return View(await servi.ToListAsync());      
         }
