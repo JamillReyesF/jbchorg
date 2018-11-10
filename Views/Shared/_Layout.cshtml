@@ -35,12 +35,12 @@
                     <li><a asp-area="" asp-controller="Asociado" asp-action="Asociado">Asociado</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Activos">Activos</a></li>
                     <li><a asp-area="" asp-controller="Donacion" asp-action="Donacion">Donacion</a></li>
-                    <li><a asp-area="" asp-controller="Servicio" asp-action="Servicio">Servicio</a></li>
+                    <li><a asp-area="" asp-controller="Servicio" asp-action="Servicio">Servicios</a></li>
                     <li><a asp-area="" asp-controller="Proyecto" asp-action="Proyecto">Proyecto</a></li>
-                    <li><a asp-area="" asp-controller="Proyecto" asp-action="Proyectos">Listado de çProyectos</a></li>
+                    <li><a asp-area="" asp-controller="Proyecto" asp-action="Proyectos">Listado de Proyectos</a></li>
                     <li><a asp-area="" asp-controller="Contacto" asp-action="Contacto">Contacto</a></li>   
                     <li><a asp-area="" asp-controller="Contacto" asp-action="Contactos">Contactos</a></li>                
-                    <li><a asp-area="" asp-controller="Home" asp-action="Informacion">Informacion</a></li>
+                   
                     
                 </ul>
             </div>
@@ -57,7 +57,7 @@
 <div class="container body-content">
         @RenderBody()
   <footer div class="row">
-  <div class="col-md-4">
+  <div class="col-md-3">
     <h4>Acerca de JBCH</h4>
     <ul>
     <li><a asp-area="" asp-controller="Home" asp-action="Index">Inicio</a></li>
@@ -68,20 +68,41 @@
     </ul>
   </div>
 
-  <div class="col-md-4">
-    <p><a href="mailto:mail.jbch.org.pe" target="_top"><img src="~/images/mail.png"></a>JBCH Email</p>
-    <p><a href="mailto:webmaster@jbch.org.pe" target="_top">webmaster@jbch.org.pe</a></p>
-    <p><img src="~/images/local.png"></p>
-    <p>Junta de Beneficencia de Chosica</p>
-    <p>Av. La Molina 1885 - La Molina</p>
+  <div class="col-md-1">
+    
+    
+    <p align = "right"><img src="~/images/local.png"></p>
+    <br/>
+    <p align = "right"><a href="mailto:mail.jbch.org.pe" target="_top"><img src="~/images/mail.png"></a></p>
+    
+    
+  </div>
+  
+  <div class="col-md-3">
+    
+    <p align = "left">Junta de Beneficencia de Chosica</p>
+    <p align = "left">Av. La Molina 1885 - La Molina</p>
+     
+    <p align = "left">JBCH Email</p>
+    <p align = "left"><a href="mailto:webmaster@jbch.org.pe" target="_top">webmaster@jbch.org.pe</a></p>
+    
   </div>
 
+
+  <div class="col-md-1">
+      <br/>
+    <p  align = "right"><img src="~/images/fono.png">  </p>
+    
+    <p align = "right"><img src="~/images/copy.png"> </p>
+    
+  </div>
   <div class="col-md-4">
-    <p><img src="~/images/fono.png"></p>
-    <p>T +51 1 349 6023</p>
-    <p>F +51 1 349 6025</p>
-    <p><img src="~/images/copy.png"> 2018</p>
-    <p>Todos los derechos reservados</p>
+      <br/>
+    <p align = "left">T +51 1 349 6023  </p>
+    <p align = "left"> F +51 1 349 6025</p>
+    
+    <p> 2018 - Todos los derechos reservados</p>
+    
   </div>
   </div></footer>
 </div>

@@ -65,7 +65,7 @@ using jbchorg.Models;
             WriteLiteral("\r\n<div class=\"row\">\r\n");
             EndContext();
             BeginContext(119, 375, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "443b96bb28c24364a4c9248015451da3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8495c7dd8db04d5e9a363e4e79e1ef90", async() => {
                 BeginContext(173, 314, true);
                 WriteLiteral(@"
     <div class=""col-lg-7"">
@@ -174,7 +174,7 @@ using jbchorg.Models;
             WriteLiteral("\r\n                 </td>\r\n                          \r\n                \r\n                 <td>\r\n                     ");
             EndContext();
             BeginContext(1407, 61, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6f66801362df4ac19354ee8462d3872e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d90511139ee649af9fe81cfa75f52928", async() => {
                 BeginContext(1457, 7, true);
                 WriteLiteral("Details");
                 EndContext();
@@ -218,7 +218,7 @@ using jbchorg.Models;
             WriteLiteral("    </tbody>\r\n</table>\r\n</div>\r\n\r\n<p>Lista</p>\r\n<p>");
             EndContext();
             BeginContext(1588, 28, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "a30e41665c97427cbd22bd7ab468b5ff", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "35913e722eb944638e05147158c5a222", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

@@ -2,14 +2,15 @@
 @{
     ViewData["Title"] = "Servicios";
 }
-<div><br/>
-    <a asp-action="Servicio">Crear</a></div><br/>
-<div class="row">
+<br/>
 <form asp-controller="Servicio" asp-action="Servicios">
     <div class="col-lg-7">
     <input value="" type="text" name="fNom"  class="form-search form-control" placeholder="Búsqueda por Nombre"><br />
     <button type="submit" class="btn btn-primary">Filtrar</button>
     </div>
+    <div>
+    <a asp-action="Servicio">Crear</a></div><br/>
+<div class="row">
 </form>
 </div><br/>
 <div class="row">
