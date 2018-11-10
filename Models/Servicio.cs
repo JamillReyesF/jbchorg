@@ -11,7 +11,7 @@ namespace jbchorg.Models
 
         [Required(ErrorMessage = "Ingrese el tipo de Servicio")]   
          public string tipo {get; set;}
-
+        [Required(ErrorMessage = "Ingrese el tipo de Servicio")]   
          public string descripcion { get;set;}
     }
 }

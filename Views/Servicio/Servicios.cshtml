@@ -2,10 +2,54 @@
 @{
     ViewData["Title"] = "Servicios";
 }
+
+<div class="row">
+    <div id="carouselProyecto" class="carousel slide" data-ride="carousel" data-interval="6000">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselProyecto" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselProyecto" data-slide-to="1"></li>
+            <li data-target="#carouselProyecto" data-slide-to="2"></li>
+            
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                    <img src="~/images/servicio1.jpg" alt="servicio1" class="img-responsive" width="1900" />
+                </div>
+                <div class="item">
+                    <img src="~/images/servicio2.jpg" alt="servicio2" class="img-responsive" width="1900"  />         
+                </div>
+                <div class="item">
+                    <img src="~/images/servicio3.jpg" alt="servicio3" class="img-responsive" width="1900" />         
+                </div>
+                
+            </div>
+    </div>  
+</div>
+<hr />
+<div class="row">
+  <div class="col-sm-12">
+    <h3><label>SOBRE NUESTROS SERVICIOS...</label></h3>
+    <div class="row">
+      <div class="col-md-6">
+        
+        <p>Nuestra labor de responsabilidad de nuestro servicios es  Desarrollar investigación de alta calidad para generar nuevos conocimientos que contribuyan al desarrollo y bienestar del ser humano, así como el uso eficiente de los recursos alimentarios, con énfasis en la salud y nutrición del niño, adolescente y la mujer.</P>
+        <p>Esta gran labor de beneficencia la llevamos a cabo a través de nuestras diferentes dependencias. Así ofrecemos un abanico de servicios para ayudar a los más necesitados del Perú ,  líder en investigación en salud y nutrición, que contribuye al conocimiento .</p>
+      </div>
+      <div class="col-md-6">
+        
+        <p>La Junta de Beneficencia de Chosica ha mantenido desde 1982 el prestigio y la reputación de ser la organización de asistencia social más grande del Perú, siempre solidaria con los peruanos de escasos recursos económicos</p>
+      </div>
+    </div>
+  </div>
+</div>
+<hr />
 <br/>
 <form asp-controller="Servicio" asp-action="Servicios">
+    <h3>NUESTROS SERVICIOS</h3>
+    <p>En el buscador podrá encontrar la lista de nuestros servicios de:  Investigación , Salud y Educación</p>
+    
     <div class="col-lg-7">
-    <input value="" type="text" name="fNom"  class="form-search form-control" placeholder="Búsqueda por Nombre"><br />
+    <input value="" type="text" name="fNom"  class="form-search form-control" placeholder="Búsqueda por Nombre o Servicio"><br />
     <button type="submit" class="btn btn-primary">Filtrar</button>
     </div>
     <div>
@@ -22,7 +66,7 @@
             <th>Tipo de Servicio</th>
             <th>Descripcion</th>
             
-            <th></th>
+            
         </tr>
     </thead>
     <tbody>
@@ -31,17 +75,21 @@
             <tr>
                  <td>@Html.DisplayFor(modelItem => item.Id)
                  </td>
-                 <td>@Html.DisplayFor(modelItem => item.NombreServ)
-                     @Html.DisplayFor(modelItem => item.tipo)
-                     @Html.DisplayFor(modelItem => item.descripcion)
-                 </td>
-                 
                  <td>
-                     <a asp-action="Servicios" asp-route-id="@item.Id">Details</a>
+                     @Html.DisplayFor(modelItem => item.NombreServ)                     
                  </td>
+                 <td> 
+                       @Html.DisplayFor(modelItem => item.tipo)
+                 </td>
+                 <td>    
+                     @Html.DisplayFor(modelItem => item.descripcion)
+                </td>
+                 
+                 
             </tr>
            
         }
     </tbody>
 </table>
 </div>
+<hr />
