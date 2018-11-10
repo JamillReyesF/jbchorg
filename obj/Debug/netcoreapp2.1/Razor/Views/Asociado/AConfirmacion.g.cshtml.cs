@@ -54,7 +54,7 @@ using jbchorg.Models;
             WriteLiteral("<h1>Gracias registrar como asociado.</h1>\r\n<p>");
             EndContext();
             BeginContext(46, 29, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3b38083c8ca54e45a4a7ceee0f9b9126", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "6c664a898560417ab62dff16731b836e", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

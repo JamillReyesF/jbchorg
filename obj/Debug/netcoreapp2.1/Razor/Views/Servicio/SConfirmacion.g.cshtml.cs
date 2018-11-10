@@ -54,7 +54,7 @@ using jbchorg.Models;
             WriteLiteral("<h1>Gracias por registrar el servicio.</h1>\r\n<p>");
             EndContext();
             BeginContext(48, 29, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e942bf230cdd47708c883717da2337ed", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5b6154f7bfb44ca3a67c8279d6a7ce29", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
