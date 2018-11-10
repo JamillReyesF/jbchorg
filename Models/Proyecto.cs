@@ -14,4 +14,4 @@ namespace jbchorg.Models
         [StringLength(1000, MinimumLength = 10)]
         public string Descripcion { get; set; }
     }  
-}
+} 
